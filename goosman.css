@@ -1,0 +1,94 @@
+body {
+    background-color: #03110c;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+body, html {
+    overflow: hidden;
+}
+
+
+
+
+header {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo {
+    height: 80px;
+    margin-top: 25px;
+}
+
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.button {
+    position: absolute;
+    transition: 0.3s;
+    z-index: 3;
+    width: 410px;
+    transition: opacity 0.3s ease-in-out;
+    
+}
+
+.button:hover {
+    filter: brightness(1);
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.center-image {
+    display: block;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+
+    height: auto;
+    z-index: 2;
+}
+
+.center-image img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.center-image:hover img {
+    content: url('images/babychangoos_hover.png');
+    
+    img {
+        width: 100%; 
+        height: 100%;
+        object-fit: cover;
+      }
+}
+
+#discography:hover { content: url('images/discography_hover.png'); }
+#about:hover { content: url('images/about_hover.png'); }
+/* #goals:hover { content: url('images/goals_hover.png'); } */
+#other:hover { content: url('images/otherwork_hover.png'); }
+#socials:hover { content: url('images/socials_hover.png'); }
+/* #people:hover { content: url('images/people_hover.png'); } */
+
+/* button ki positioning ke liye */
+#discography { top: 27%; left: 7%; }
+#about { top: 70%; left: 7%; }
+#goals { top: 78%; left: 7%; }
+#other { top: 22%; right: 10%; }
+#socials { top: 72%; right: 10%; }
+#people { top: 78%; right: 10%; }
