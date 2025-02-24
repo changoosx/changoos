@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 17, 17);
+}
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;}
+
+.back-button img {
+    width: 40px;
+    height: auto;
+    cursor: pointer; 
+}
+
+.working
+{
+    margin-top: 8vw;
+    width: 100vw;
+}

@@ -1,0 +1,70 @@
+
+body {
+    background-color: rgb(19, 17, 17);
+    color: white;
+    /* font-family: Arial, sans-serif; */
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
+    
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 431;
+  font-style: normal;
+      }
+      
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;}
+
+.back-button img {
+    width: 40px;
+    height: auto;
+    cursor: pointer; 
+}
+
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.header img {
+    width: 500px; 
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0;
+    padding: 20px;
+}
+
+.text-box {
+    width: 45%;
+}
+
+.text-box img {
+    width: 80%; 
+}
+
+.image-box {
+    width: 40%;
+}
+
+.image-box img {
+    width: 100%;
+    max-width: 800px;
+}
+
+.yo {
+    width: 200px;
+}
+
+.whosgoos {
+    width: 480px;
+}
