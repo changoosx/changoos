@@ -111,7 +111,7 @@ releaseType.textContent = `(${album.type})`;
 
   streamingIcons.innerHTML = ""; 
   if (album.links) {
-    ["youtube", "youtube", "soundcloud", "genius", "spotify", "appleMusic"].forEach(platform => {
+    ["youtube", "youtubevideo", "soundcloud", "genius", "spotify", "appleMusic"].forEach(platform => {
       if (album.links[platform]) {
         const a = document.createElement("a");
         a.href = album.links[platform];
