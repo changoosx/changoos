@@ -299,8 +299,8 @@ body {
   
   #streamingIcons a {
     display: inline-block;
-    width: 50px;           /* bigger container */
-    height: 50px;
+    width: 65px;           /* bigger container */
+    height: 65px;
     background-size: contain;  /* no cropping */
     background-position: center;
     background-repeat: no-repeat;
