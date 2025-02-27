@@ -119,7 +119,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* keeps the image cropped nicely */
+    object-fit: contain; /* keeps the image cropped nicely */
     transition: filter 0.3s;
     z-index: 1; /* Ensure it's below the border */
 
@@ -132,7 +132,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     pointer-events: none; /* let clicks pass through to the cover */
     z-index: 2; /* Ensure it's above the album cover */
   }
