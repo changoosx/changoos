@@ -269,6 +269,34 @@ body {
   }
   
   
+  
+  /* YouTube icon */
+  a.youtube {
+    background-image: url('assets/icons/youtube-gray.png');
+  }
+  a.youtube:hover {
+    background-image: url('assets/icons/youtube-color.png');
+  }
+  
+ 
+  /* SoundCloud icon */
+  a.soundcloud {
+    background-image: url('assets/icons/soundcloud-gray.png');
+  }
+  a.soundcloud:hover {
+    background-image: url('assets/icons/soundcloud-color.png');
+  }
+
+  
+  /* Genius icon */
+  a.genius {
+    background-image: url('assets/icons/genius-gray.png');
+  }
+  a.genius:hover {
+    background-image: url('assets/icons/genius-color.png');
+  }
+  
+   
   /* Spotify icon */
   a.spotify {
     background-image: url('assets/icons/spotify-gray.png');
@@ -283,29 +311,5 @@ body {
   }
   a.appleMusic:hover {
     background-image: url('assets/icons/apple-color.png');
-  }
-  
-  /* YouTube icon */
-  a.youtube {
-    background-image: url('assets/icons/youtube-gray.png');
-  }
-  a.youtube:hover {
-    background-image: url('assets/icons/youtube-color.png');
-  }
-  
-  /* Genius icon */
-  a.genius {
-    background-image: url('assets/icons/genius-gray.png');
-  }
-  a.genius:hover {
-    background-image: url('assets/icons/genius-color.png');
-  }
-  
-  /* SoundCloud icon */
-  a.soundcloud {
-    background-image: url('assets/icons/soundcloud-gray.png');
-  }
-  a.soundcloud:hover {
-    background-image: url('assets/icons/soundcloud-color.png');
   }
   
