@@ -306,6 +306,15 @@ body {
     background-image: url('assets/icons/youtube-color.png');
   }
   
+  
+  /* YouTube Video icon */
+  a.youtubevideo {
+    background-image: url('assets/icons/youtube-white.png');
+  }
+  a.youtubevideo:hover {
+    background-image: url('assets/icons/youtube-color.png');
+  }
+  
  
   /* SoundCloud icon */
   a.soundcloud {

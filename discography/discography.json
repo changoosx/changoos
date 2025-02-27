@@ -26,6 +26,21 @@
           "genius": "https://genius.com/Praggy-japan-lyrics",
           "soundcloud": "https://example.com/chop-soundcloud"
         }
+      },
+
+      {
+        "title": "Purple Jeans",
+        "cover": "assets/covers/purple.jpg",
+        "type": "single",
+        "notes": "TCOOK KRAK BTICH",
+        "artist": "changoos",
+        "links": {
+          "spotify": "https://example.com/chop-spotify",
+          "appleMusic": "https://example.com/chop-apple",
+          "youtubevideo": "https://example.com/chop-youtube",
+          "genius": "https://example.com/chop-genius",
+          "soundcloud": "https://example.com/chop-soundcloud"
+        }
       }
   
 ]
