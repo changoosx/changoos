@@ -128,12 +128,12 @@ releaseType.textContent = `(${album.type})`;
   streamingIcons.innerHTML = ""; // Clear previous icons
   if (album.links) {
     // Only include known platforms
-    ["spotify", "appleMusic", "youtube", "genius", "soundcloud"].forEach(platform => {
+    ["youtube", "soundcloud", "genius", "spotify", "appleMusic"].forEach(platform => {
       if (album.links[platform]) {
         const a = document.createElement("a");
         a.href = album.links[platform];
         a.target = "_blank";
-        a.classList.add(platform); // CSS will style these icons
+        a.classList.add(platform);
         streamingIcons.appendChild(a);
       }
     });
