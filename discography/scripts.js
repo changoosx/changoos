@@ -45,12 +45,10 @@ console.log(grid); // Check if this logs the correct div
     cover.alt = album.title;
     card.appendChild(cover);
 
-    // Add a random hand-drawn border (choose one from 5 PNGs)
     const border = document.createElement('img');
     border.src = getRandomBorder();
     border.alt = "Border";
-    border.classList.add('album-border');
-    // Position this border using CSS (e.g., absolute positioning)
+    border.classList.add('borderImg'); // Ensure this class is added
     card.appendChild(border);
 
     // Create the release type icon, but keep it hidden by default
