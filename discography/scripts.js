@@ -104,7 +104,7 @@ releaseType.textContent = `(${album.type})`;
   additionalInfo.textContent = album.notes || "";
 
   if (album.artist && (album.type.toLowerCase() === "feat" || album.type.toLowerCase() === "feature")) {
-    artistAttribution.innerHTML = `by <a href="${album.artistLink || '#'}" target="_blank">${album.artist}</a>`;
+    artistAttribution.innerHTML = `by <a href="${album.artistLink || '#'}" target="_blank"style="color:rgb(225, 225, 225);>${album.artist}</a>`;   
   } else {
     artistAttribution.textContent = "by changoos";
   }
@@ -141,14 +141,3 @@ function setupOverlayExit() {
   });
 }
 
-const { EmbedBuilder } = require("discord.js");
-
-const artist = "Another Artist"; // Change dynamically
-const embedColor = artist === "Changoos" ? "#FFD700" : "#FF0000"; // Gold for Changoos, Red for others
-
-const embed = new EmbedBuilder()
-    .setTitle("Now Playing")
-    .setDescription(`**${artist}** - Song Name`)
-    .setColor(embedColor); // Dynamically change the embed color
-
-channel.send({ embeds: [embed] });
