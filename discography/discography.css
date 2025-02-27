@@ -290,8 +290,8 @@ body {
   
   #streamingIcons a {
     display: inline-block;
-    width: 65px; 
-    height: 58px;
+    width: 58px; 
+    height: 65px;
     background-size: contain; 
     background-position: center;
     background-repeat: no-repeat;
