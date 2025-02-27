@@ -141,3 +141,14 @@ function setupOverlayExit() {
   });
 }
 
+const { EmbedBuilder } = require("discord.js");
+
+const artist = "Another Artist"; // Change dynamically
+const embedColor = artist === "Changoos" ? "#FFD700" : "#FF0000"; // Gold for Changoos, Red for others
+
+const embed = new EmbedBuilder()
+    .setTitle("Now Playing")
+    .setDescription(`**${artist}** - Song Name`)
+    .setColor(embedColor); // Dynamically change the embed color
+
+channel.send({ embeds: [embed] });
