@@ -82,11 +82,38 @@ body {
 /* Grid container: 4 columns if there's room, 20px gap, some padding */
 #discographyGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px; /* Adjust for more spacing */
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
   }
-  
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Prevent cropping */
+}
+
+.grid-item {
+    position: relative;
+    overflow: visible; /* Make sure the border is not hidden */
+}
+
+.grid-item::before {
+    content: "";
+    position: absolute;
+    top: -5px; /* Adjust to make sure the border is visible */
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background-image: url('your-border-image.png'); /* Ensure path is correct */
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
   /* Each album card is 180x180, with position: relative for layering */
   .albumCard {
     position: relative;
