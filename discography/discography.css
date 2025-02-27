@@ -109,7 +109,7 @@ body {
 }
 
 .albumCard {
-    position: absolute;
+    position: relative;
     width: 230px;
     height: 230px;
     overflow: hidden;
