@@ -12,21 +12,5 @@
         "genius": "https://example.com/chop-genius",
         "soundcloud": "https://example.com/chop-soundcloud"
       }
-    },
-    {
-      "title": "Feature Song",
-      "cover": "assets/covers/feature.jpg",
-      "type": "feat",
-      "notes": "A song featuring an amazing artist.",
-      "artist": "Amazing Artist",
-      "artistLink": "https://example.com/artist",
-      "links": {
-        "spotify": "https://example.com/feature-spotify",
-        "appleMusic": "https://example.com/feature-apple",
-        "youtube": "https://example.com/feature-youtube",
-        "genius": "https://example.com/feature-genius",
-        "soundcloud": "https://example.com/feature-soundcloud"
-      }
     }
-  ]
-  
+]
