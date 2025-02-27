@@ -139,80 +139,101 @@ body {
   /* The overlay covers the entire screen */
 #overlay {
     position: fixed;
-    top: 0; left: 0;
+    top: 0; 
+    left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.85); /* 85% opacity black */
+    background: rgba(0,0,0,0.85); /* Dark background with 85% opacity */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     opacity: 0;
     transition: opacity 0.5s;
     z-index: 1000;
+    cursor: pointer; /* Click to close */
   }
   
   #overlay.show {
-    opacity: 1; /* fades in */
+    opacity: 1;
   }
   
-  /* Container for left & right sections */
+  /* Overlay content container - no extra box background */
   #overlayContent {
     display: flex;
-    align-items: flex-start; /* align top edges */
-    justify-content: center;
     gap: 20px;
-    max-width: 1000px; /* or however wide you want */
-    margin: 60px auto;  /* centers the content & adds top margin */
+    max-width: 90%;
+    width: 800px;  /* Increase width for a larger detailed view */
     padding: 20px;
-    background: none;   /* remove any box background */
-    border-radius: 0;   /* remove rounded corners if any */
-    box-shadow: none;   /* remove any drop shadows */
-    cursor: default;    /* let user click inside without closing overlay */
+    background: none;  /* Remove any background color */
+    border-radius: 0;  /* Remove rounded corners */
+    box-shadow: none;  /* Remove drop shadow */
+    cursor: default;   /* So clicking inside doesn't close overlay */
   }
   
-  /* Left side: album cover & artist attribution */
+  /* Left side: large album cover and artist attribution */
   #overlayLeft {
-    flex: 0 0 300px; /* sets left side width; adjust as needed */
+    flex: 0 0 400px;  /* Set a fixed width for left side */
     text-align: center;
   }
-  
   #overlayLeft img {
     width: 100%;
     height: auto;
-    object-fit: cover; 
+    object-fit: cover;
   }
   
-  /* Right side: title, release type, extra info, streaming icons */
+  /* Right side: song title, release type, additional info, streaming icons */
   #overlayRight {
     flex: 1;
+    overflow: visible;
   }
   
-  /* Title & release type side by side */
+  /* Song title and release type inline */
   #songTitle {
     display: inline-block;
     margin-right: 8px;
-    font-family: "YourCustomFont", sans-serif; /* your custom TTF */
-    font-size: 1.5rem; /* example size */
-    margin-top: 0;     /* remove default h2 top margin */
+    font-family: "YourCustomFont", sans-serif; /* Replace with your custom font name */
+    font-size: 2rem;
+    margin-top: 0;
   }
   
   #releaseType {
     display: inline-block;
     color: #aaa;
     font-family: "YourCustomFont", sans-serif;
-    font-size: 1.5rem; /* match the title size or slightly smaller */
+    font-size: 2rem;
   }
   
-  /* Additional info below the title & release type */
+  /* Additional info text using Nunito */
   #additionalInfo {
     font-family: "Nunito", serif;
+    font-weight: 431;
     margin-top: 10px;
   }
   
-  /* The "Click anywhere to go back" text */
+  /* Streaming icons container - allow horizontal scrolling if necessary */
+  #streamingIcons {
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+  
+  /* Example styles for streaming icons */
+  #streamingIcons a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    margin-right: 10px;
+    transition: background-image 0.2s;
+  }
+  
+  /* Overlay exit instruction */
   #overlayExit {
     text-align: center;
-    margin-top: 10px;
-    font-size: 12px;
+    margin-top: 20px;
+    font-size: 14px;
     cursor: pointer;
-    background: none; /* no box behind it */
+    background: none;
   }
   
   /* If you want to ensure user can only close by clicking outside content,
