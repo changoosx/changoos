@@ -256,15 +256,6 @@ body {
     overflow-x: auto;
   }
   
-  /* Example styles for streaming icons */
-  #streamingIcons a {
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-    background-size: cover;
-    margin-right: 10px;
-    transition: background-image 0.2s;
-  }
   
   /* Overlay exit instruction */
   #overlayExit {
@@ -306,6 +297,7 @@ body {
     background-repeat: no-repeat;
     margin-right: 10px;
   }
+
   
   
   
