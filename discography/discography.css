@@ -1,352 +1,302 @@
+
 @font-face {
     font-family: 'changoos';
     src: url('assets/fonts/Changoosfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-  }
+}
 
 
-/* Global Styles */
 body {
     margin: 0;
-    background: #000; /* Black background */
+    background: #000;
     color: #fff;
     font-family: Arial, sans-serif;
-  }
-  
-  /* Top Bar */
-  #topBar {
+}
+
+#topBar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-  }
-  #backButton img {
+}
+
+#backButton img {
     height: 40px;
-  }
-  #discographyTitle {
+}
+
+#discographyTitle {
     height: 70px;
-  }
-  #infoContainer {
+}
+
+#infoContainer {
     position: relative;
-  }
-  #infoButton {
+}
+
+#infoButton {
     height: 40px;
     cursor: pointer;
-  }
-  
-  /* Info Box (appears on hover over info button) */
-  #infoBox {
+}
+
+#infoBox {
     position: absolute;
     right: 0;
     top: 45px;
     background: rgba(50, 50, 50, 0.85);
     border: 1px solid #666;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     padding: 10px;
     display: flex;
     gap: 10px;
     border-radius: 4px;
-  }
-  .hidden {
+}
+
+.hidden {
     display: none !important;
-  }
-  .infoItem {
+}
+
+.infoItem {
     display: flex;
     flex-direction: column;
     align-items: center;
     cursor: default;
     position: relative;
-  }
-  .infoItem img {
+}
+
+.infoItem img {
     height: 40px;
     width: 50px;
-  }
-  .infoItem span {
-    font-family: "changoos", sans-serif; /* Use your custom TTF for these labels */
+}
+
+.infoItem span {
+    font-family: "changoos", sans-serif;
     font-size: 40px;
     text-transform: lowercase;
-  }
-  /* Tooltip on hover for each info item */
-  .infoItem:hover::after {
+}
+
+.infoItem:hover::after {
     content: attr(data-tooltip);
     position: absolute;
     bottom: -25px;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
     padding: 3px 5px;
     border-radius: 3px;
     white-space: nowrap;
     font-size: 10px;
-  }
-  
-/* Grid container: 4 columns if there's room, 20px gap, some padding */
+}
+
 #discographyGrid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 20px; /* Adjust for more spacing */
+    gap: 20px;
     justify-content: center;
     align-items: center;
     width: 90%;
     margin: auto;
-  }
-  
+}
 
 .grid-item img {
     width: 100%;
     height: auto;
-    object-fit: cover; /* Prevent cropping */
+    object-fit: cover;
 }
 
 .grid-item {
     position: relative;
-    overflow: visible; /* Make sure the border is not hidden */
+    overflow: visible;
 }
 
-  /* Each album card is 180x180, with position: relative for layering */
-  .albumCard {
+.albumCard {
     position: relative;
     width: 230px;
     height: 230px;
     overflow: hidden;
     cursor: pointer;
     object-fit: contain;
-  }
-  
-  .albumCard .coverImg {
+}
+
+.albumCard .coverImg {
     position: absolute;
-    top: 0; 
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* This will fill the container without cropping */
+    object-fit: cover;
     transition: filter 0.3s;
-    z-index: 1; /* Ensure it's below the border */
+    z-index: 1;
 }
-  
-  .albumCard .borderImg {
+
+.albumCard .borderImg {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: contain;
-    pointer-events: none; /* let clicks pass through to the cover */
-    z-index: 2; /* Ensure it's above the album cover */
+    pointer-events: none;
+    z-index: 2;
 }
-  
-  /* Darken the cover on hover */
-  .albumCard:hover .coverImg {
+
+.albumCard:hover .coverImg {
     filter: brightness(0.8);
-  }
-  
-  /* The release type icon (caterpillar, cocoon, butterfly) shows on hover */
-  .typeIcon {
+}
+
+.typeIcon {
     position: absolute;
     bottom: 5px;
     left: 5px;
     width: 30px;
     height: 30px;
     display: none;
-  }
-  .albumCard:hover .typeIcon {
-    display: block;
-  }
+}
 
-  /* The overlay covers the entire screen */
+.albumCard:hover .typeIcon {
+    display: block;
+}
+
+
 #overlay {
     position: fixed;
-    top: 0; 
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.85); /* Dark background with 85% opacity */
+    background: rgba(0, 0, 0, 0.85);
     display: flex;
     align-items: center;
     justify-content: center;
     opacity: 0;
     transition: opacity 0.5s;
     z-index: 1000;
-    cursor: pointer; /* Click to close */
-  }
-  
-  #overlay.show {
+    cursor: pointer;
+}
+
+#overlay.show {
     opacity: 1;
-  }
-  
-  /* Overlay content container - no extra box background */
-  #overlayContent {
+}
+
+#overlayContent {
     display: flex;
     gap: 20px;
     max-width: 90%;
-    width: 800px;  /* Increase width for a larger detailed view */
+    width: 800px;
     padding: 20px;
-    background: none;  /* Remove any background color */
-    border-radius: 0;  /* Remove rounded corners */
-    box-shadow: none;  /* Remove drop shadow */
-    cursor: default;   /* So clicking inside doesn't close overlay */
-  }
-  
-  /* Left side: large album cover and artist attribution */
-  #overlayLeft {
-    flex: 0 0 400px;  /* Set a fixed width for left side */
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    cursor: default;
+}
+
+#overlayLeft {
+    flex: 0 0 400px;
     text-align: center;
-  }
-  #overlayLeft img {
+}
+
+#overlayLeft img {
     width: 100%;
     height: auto;
     object-fit: cover;
-  }
-  
-  /* Right side: song title, release type, additional info, streaming icons */
-  #overlayRight {
+}
+
+#overlayRight {
     flex: 1;
     overflow: visible;
-  }
-  
-  #titleRow {
-    display: flex;
-    align-items: center; /* vertically center them */
-    gap: 8px;           /* small spacing if desired */
-  }
-  
-  #songTitle {
-    margin: 0; /* remove default h2 margin */
-    margin-right: 8px;
-    font-family: "changoos", sans-serif; /* Replace with your custom font name */
-    font-size: 5rem;
-    margin-top: 0;
-  }
-  #releaseType {
-    color: #aaa;
-    
-    font-family: "changoos", sans-serif;
-    font-size: 2rem;
-  }
+}
 
-/* 
-  #songTitle {
-    display: inline-block;
+#titleRow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#songTitle {
+    margin: 0;
     margin-right: 8px;
-    font-family: "changoos", sans-serif; 
+    font-family: "changoos", sans-serif;
     font-size: 5rem;
     margin-top: 0;
-  }
-  
-  #releaseType {
-    display: inline-block;
+}
+
+#releaseType {
     color: #aaa;
     font-family: "changoos", sans-serif;
     font-size: 2rem;
-  } */
-  
-  /* Additional info text using Nunito */
-  #additionalInfo {
+}
+
+#additionalInfo {
     font-family: "Nunito", serif;
     font-weight: 431;
     margin-top: 10px;
-  }
-  
-  /* Streaming icons container - allow horizontal scrolling if necessary */
-  #streamingIcons {
+}
+
+#streamingIcons {
     margin-top: 10px;
     white-space: nowrap;
     overflow-x: auto;
-  }
-  
-  
-  /* Overlay exit instruction */
-  #overlayExit {
+}
+
+#overlayExit {
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
     cursor: pointer;
     background: none;
-  }
-  
-  /* If you want to ensure user can only close by clicking outside content,
-     add something like this:
-  */
-  #overlay {
-    cursor: pointer;
-  }
-  #overlayContent {
-    cursor: default;
-  }
-  
-  
-  #songTitle {
+}
+
+#streamingIcons a {
     display: inline-block;
-    margin-right: 8px;
-    /* your custom font, etc. */
-  }
-  #releaseType {
-    display: inline-block;
-    color: #aaa;
-    /* same custom font or slightly smaller, etc. */
-  }
-  
-  #streamingIcons a {
-    display: inline-block;
-    width: 58px; 
+    width: 58px;
     height: 65px;
-    background-size: contain; 
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     margin-right: 6px;
-  }
+}
 
-  
-  
-  
-  /* YouTube icon */
-  a.youtube {
+a.youtube {
     background-image: url('assets/icons/youtube-gray.png');
-  }
-  a.youtube:hover {
-    background-image: url('assets/icons/youtube-color.png');
-  }
-  
-  
-  /* YouTube Video icon */
-  a.youtubevideo {
-    background-image: url('assets/icons/youtube-white.png');
-  }
-  a.youtubevideo:hover {
-    background-image: url('assets/icons/youtube-color.png');
-  }
-  
- 
-  /* SoundCloud icon */
-  a.soundcloud {
-    background-image: url('assets/icons/soundcloud-gray.png');
-  }
-  a.soundcloud:hover {
-    background-image: url('assets/icons/soundcloud-color.png');
-  }
+}
 
-  
-  /* Genius icon */
-  a.genius {
+a.youtube:hover {
+    background-image: url('assets/icons/youtube-color.png');
+}
+
+a.youtubevideo {
+    background-image: url('assets/icons/youtube-white.png');
+}
+
+a.youtubevideo:hover {
+    background-image: url('assets/icons/youtube-color.png');
+}
+
+a.soundcloud {
+    background-image: url('assets/icons/soundcloud-gray.png');
+}
+
+a.soundcloud:hover {
+    background-image: url('assets/icons/soundcloud-color.png');
+}
+
+a.genius {
     background-image: url('assets/icons/genius-gray.png');
-  }
-  a.genius:hover {
+}
+
+a.genius:hover {
     background-image: url('assets/icons/genius-color.png');
-  }
-  
-   
-  /* Spotify icon */
-  a.spotify {
+}
+
+a.spotify {
     background-image: url('assets/icons/spotify-gray.png');
-  }
-  a.spotify:hover {
+}
+
+a.spotify:hover {
     background-image: url('assets/icons/spotify-color.png');
-  }
-  
-  /* Apple Music icon */
-  a.appleMusic {
+}
+
+a.appleMusic {
     background-image: url('assets/icons/apple-gray.png');
-  }
-  a.appleMusic:hover {
+}
+
+a.appleMusic:hover {
     background-image: url('assets/icons/apple-color.png');
-  }
-  
+}

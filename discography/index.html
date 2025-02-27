@@ -3,26 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>Discography</title>
-  <!-- Link to our CSS file -->
+  
   <link rel="stylesheet" href="discography.css">
-  <!-- Google Nunito font for additional info text -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,431;1,431&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- Top Bar -->
-  <header id="topBar">
-    <!-- Back Button on the left; clicking sends user to your main site -->
+  <header id="topBar"> 
     <a href="https://changoos.vercel.app" id="backButton">
       <img src="assets/icons/bakk.png" alt="Back">
-    </a>
-    <!-- Center Discography title (PNG) -->
-    <img src="assets/icons/discography.png" alt="Discography" id="discographyTitle">
-    <!-- Info Button on the right -->
+    </a> 
+    <img src="assets/icons/discography.png" alt="Discography" id="discographyTitle"> 
     <div id="infoContainer">
-      <img src="assets/icons/info.png" alt="Info" id="infoButton">
-      <!-- Info Box that appears on hover -->
+      <img src="assets/icons/info.png" alt="Info" id="infoButton"> 
       <div id="infoBox" class="hidden">
         <div class="infoItem" data-tooltip="songs featuring changoos by various artists">
           <img src="assets/icons/caterpillar.png" alt="Feature Icon">
@@ -43,16 +38,13 @@
   <section id="gridView">
     <div id="discographyGrid"></div>
   </section>
-
-<!-- Detailed Overlay View -->
+ 
 <div id="overlay" class="hidden">
-    <div id="overlayContent">
-      <!-- Left side: large album cover & artist attribution -->
+    <div id="overlayContent"> 
       <div id="overlayLeft">
         <img id="overlayCover" src="" alt="Album Cover">
         <p id="artistAttribution"></p>
-      </div>
-      <!-- Right side: song title, release type, additional info, and streaming icons -->
+      </div> 
       <div id="overlayRight">
         <div id="titleRow">
             <h2 id="songTitle"></h2>
