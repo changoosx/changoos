@@ -102,24 +102,11 @@ body {
     overflow: visible; /* Make sure the border is not hidden */
 }
 
-.grid-item::before {
-    content: "";
-    position: absolute;
-    top: -5px; /* Adjust to make sure the border is visible */
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    background-image: url('your-border-image.png'); /* Ensure path is correct */
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 1;
-}
-
   /* Each album card is 180x180, with position: relative for layering */
   .albumCard {
     position: relative;
-    width: 180%;
-    height: 180%;
+    width: 180px;
+    height: 180px;
     overflow: hidden;
     cursor: pointer;
     object-fit: contain;
@@ -134,6 +121,8 @@ body {
     height: 100%;
     object-fit: cover; /* keeps the image cropped nicely */
     transition: filter 0.3s;
+    z-index: 1; /* Ensure it's below the border */
+
   }
   
   /* The border is also absolutely positioned, so it sits right over the cover */
@@ -145,6 +134,7 @@ body {
     height: 100%;
     object-fit: cover;
     pointer-events: none; /* let clicks pass through to the cover */
+    z-index: 2; /* Ensure it's above the album cover */
   }
   
   /* Darken the cover on hover */
