@@ -45,26 +45,26 @@
     <div id="discographyGrid"></div>
   </section>
 
-  <!-- Detailed Overlay View (hidden by default) -->
-  <div id="overlay" class="hidden">
+  <!-- Detailed Overlay View -->
+<div id="overlay" class="hidden">
     <div id="overlayContent">
-      <!-- Left Side: large album cover and artist attribution -->
+      <!-- Left side: album cover + artist attribution -->
       <div id="overlayLeft">
         <img id="overlayCover" src="" alt="Album Cover">
         <p id="artistAttribution"></p>
       </div>
-      <!-- Right Side: song title, release type, additional info, and streaming icons -->
+  
+      <!-- Right side: song title + release type on the same line, additional info, streaming icons -->
       <div id="overlayRight">
         <h2 id="songTitle"></h2>
-        <p id="releaseType"></p>
+        <span id="releaseType"></span>
         <p id="additionalInfo"></p>
         <div id="streamingIcons"></div>
       </div>
     </div>
-    <!-- Instruction to close the overlay -->
     <p id="overlayExit">Click anywhere to go back</p>
   </div>
-
+  
   <!-- Link to our JavaScript file -->
   <script src="scripts.js"></script>
 </body>

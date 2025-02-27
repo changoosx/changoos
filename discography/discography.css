@@ -79,117 +79,161 @@ body {
     font-size: 10px;
   }
   
-  /* Grid View Styles */
-  #discographyGrid {
+/* Grid container: 4 columns if there's room, 20px gap, some padding */
+#discographyGrid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
     padding: 20px;
   }
+  
+  /* Each album card is 180x180, with position: relative for layering */
   .albumCard {
     position: relative;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
     cursor: pointer;
   }
-  .albumCard img {
+  
+  /* The cover image is absolutely positioned to fill the card */
+  .albumCard .coverImg {
+    position: absolute;
+    top: 0; 
+    left: 0;
     width: 100%;
-    display: block;
+    height: 100%;
+    object-fit: cover; /* keeps the image cropped nicely */
     transition: filter 0.3s;
   }
-  /* Darken album cover on hover */
-  .albumCard:hover img {
+  
+  /* The border is also absolutely positioned, so it sits right over the cover */
+  .albumCard .borderImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none; /* let clicks pass through to the cover */
+  }
+  
+  /* Darken the cover on hover */
+  .albumCard:hover .coverImg {
     filter: brightness(0.8);
   }
-  /* Release type icon (appears on hover) */
-  .albumCard .typeIcon {
+  
+  /* The release type icon (caterpillar, cocoon, butterfly) shows on hover */
+  .typeIcon {
     position: absolute;
     bottom: 5px;
     left: 5px;
-    height: 30px;
     width: 30px;
+    height: 30px;
     display: none;
   }
   .albumCard:hover .typeIcon {
     display: block;
   }
-  
-  /* Overlay (Detailed View) */
-  #overlay {
+
+  /* The overlay covers the entire screen */
+#overlay {
     position: fixed;
     top: 0; left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.85); /* 85% opacity background */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    background: rgba(0,0,0,0.85); /* 85% opacity black */
     opacity: 0;
     transition: opacity 0.5s;
     z-index: 1000;
   }
+  
   #overlay.show {
-    opacity: 1;
+    opacity: 1; /* fades in */
   }
+  
+  /* Container for left & right sections */
   #overlayContent {
     display: flex;
-    max-width: 800px;
-    width: 90%;
-    background: #111;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  /* Left Side of Overlay */
-  #overlayLeft {
-    flex: 1;
+    align-items: flex-start; /* align top edges */
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px; /* or however wide you want */
+    margin: 60px auto;  /* centers the content & adds top margin */
     padding: 20px;
+    background: none;   /* remove any box background */
+    border-radius: 0;   /* remove rounded corners if any */
+    box-shadow: none;   /* remove any drop shadows */
+    cursor: default;    /* let user click inside without closing overlay */
+  }
+  
+  /* Left side: album cover & artist attribution */
+  #overlayLeft {
+    flex: 0 0 300px; /* sets left side width; adjust as needed */
     text-align: center;
   }
+  
   #overlayLeft img {
-    max-width: 100%;
-    /* The border effect will be set in JS (using inline styles) */
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
   }
-  #artistAttribution {
-    margin-top: 10px;
-    font-family: "Nunito", serif;
-    font-weight: 431;
-  }
-  /* Right Side of Overlay */
+  
+  /* Right side: title, release type, extra info, streaming icons */
   #overlayRight {
     flex: 1;
-    padding: 20px;
   }
+  
+  /* Title & release type side by side */
   #songTitle {
-    font-family: "changoos", sans-serif; /* Replace with your custom font name */
-    margin-top: 0;
+    display: inline-block;
+    margin-right: 8px;
+    font-family: "YourCustomFont", sans-serif; /* your custom TTF */
+    font-size: 1.5rem; /* example size */
+    margin-top: 0;     /* remove default h2 top margin */
   }
+  
   #releaseType {
-    font-family: "changoos", sans-serif;
+    display: inline-block;
     color: #aaa;
+    font-family: "YourCustomFont", sans-serif;
+    font-size: 1.5rem; /* match the title size or slightly smaller */
   }
+  
+  /* Additional info below the title & release type */
   #additionalInfo {
     font-family: "Nunito", serif;
-    font-weight: 431;
+    margin-top: 10px;
   }
-  #streamingIcons a {
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-    background-size: cover;
-    margin-right: 10px;
-    transition: background-image 0.2s;
-  }
-  /* Example for Spotify icon (repeat similar blocks for others) */
-  a.spotify {
-    background-image: url('assets/icons/spotify-gray.png');
-  }
-  a.spotify:hover {
-    background-image: url('assets/icons/spotify-color.png');
-  }
-  /* Overlay exit text */
+  
+  /* The "Click anywhere to go back" text */
   #overlayExit {
     text-align: center;
     margin-top: 10px;
     font-size: 12px;
     cursor: pointer;
+    background: none; /* no box behind it */
+  }
+  
+  /* If you want to ensure user can only close by clicking outside content,
+     add something like this:
+  */
+  #overlay {
+    cursor: pointer;
+  }
+  #overlayContent {
+    cursor: default;
+  }
+  
+  
+  #songTitle {
+    display: inline-block;
+    margin-right: 8px;
+    /* your custom font, etc. */
+  }
+  #releaseType {
+    display: inline-block;
+    color: #aaa;
+    /* same custom font or slightly smaller, etc. */
   }
   

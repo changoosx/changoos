@@ -111,8 +111,9 @@ function showOverlay(album, borderSrc) {
   // you can apply your border image using inline styles if desired.
   
   // Set the song title and release type (using your custom font)
-  songTitle.textContent = album.title;
-  releaseType.textContent = album.type;
+songTitle.textContent = album.title;
+releaseType.textContent = `(${album.type})`;
+
   additionalInfo.textContent = album.notes || "";
 
   // Set the artist attribution below the cover
