@@ -1,25 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <link rel="stylesheet" href="./discography.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Discography</title>
+  <!-- Link to our CSS file -->
+  <link rel="stylesheet" href="discography.css">
+  <!-- Google Nunito font for additional info text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,431;1,431&display=swap" rel="stylesheet">
 </head>
-<body>  
+<body>
+  <!-- Top Bar -->
+  <header id="topBar">
+    <!-- Back Button on the left; clicking sends user to your main site -->
+    <a href="https://changoos.vercel.app" id="backButton">
+      <img src="assets/icons/bakk.png" alt="Back">
+    </a>
+    <!-- Center Discography title (PNG) -->
+    <img src="assets/icons/discography.png" alt="Discography" id="discographyTitle">
+    <!-- Info Button on the right -->
+    <div id="infoContainer">
+      <img src="assets/icons/info.png" alt="Info" id="infoButton">
+      <!-- Info Box that appears on hover -->
+      <div id="infoBox" class="hidden">
+        <div class="infoItem" data-tooltip="songs featuring changoos by various artists">
+          <img src="assets/icons/caterpillar.png" alt="Feature Icon">
+          <span>feature</span>
+        </div>
+        <div class="infoItem" data-tooltip="single record released by changoos">
+          <img src="assets/icons/cocoon.png" alt="Single Icon">
+          <span>single</span>
+        </div>
+        <div class="infoItem" data-tooltip="includes albums/mixtapes/EP's">
+          <img src="assets/icons/butterfly.png" alt="Tape Icon">
+          <span>tape</span>
+        </div>
+      </div>
+    </div>
+  </header>
 
-    
-<a href="../../index.html" class="back-button">
-    
-    <img src="../images/bakk.png" alt="Back">
-</a>
+  <!-- Grid View: displays only album covers -->
+  <section id="gridView">
+    <div id="discographyGrid"></div>
+  </section>
 
+  <!-- Detailed Overlay View (hidden by default) -->
+  <div id="overlay" class="hidden">
+    <div id="overlayContent">
+      <!-- Left Side: large album cover and artist attribution -->
+      <div id="overlayLeft">
+        <img id="overlayCover" src="" alt="Album Cover">
+        <p id="artistAttribution"></p>
+      </div>
+      <!-- Right Side: song title, release type, additional info, and streaming icons -->
+      <div id="overlayRight">
+        <h2 id="songTitle"></h2>
+        <p id="releaseType"></p>
+        <p id="additionalInfo"></p>
+        <div id="streamingIcons"></div>
+      </div>
+    </div>
+    <!-- Instruction to close the overlay -->
+    <p id="overlayExit">Click anywhere to go back</p>
+  </div>
 
-<div class="header">
-    <img src="./mock.png" alt="About Me">
-</div>
-
-    <img src="./working.jpg" class="working" alt="">
-    
+  <!-- Link to our JavaScript file -->
+  <script src="scripts.js"></script>
 </body>
 </html>

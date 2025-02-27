@@ -1,34 +1,195 @@
+@font-face {
+    font-family: 'changoos';
+    src: url('assets/fonts/Changoosfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+/* Global Styles */
 body {
     margin: 0;
-    padding: 0;
-    background-color: rgb(20, 17, 17);
-}
-
-.back-button {
+    background: #000; /* Black background */
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Top Bar */
+  #topBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  #backButton img {
+    height: 40px;
+  }
+  #discographyTitle {
+    height: 70px;
+  }
+  #infoContainer {
+    position: relative;
+  }
+  #infoButton {
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  /* Info Box (appears on hover over info button) */
+  #infoBox {
+    position: absolute;
+    right: 0;
+    top: 45px;
+    background: rgba(50, 50, 50, 0.85);
+    border: 1px solid #666;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    border-radius: 4px;
+  }
+  .hidden {
+    display: none !important;
+  }
+  .infoItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+    position: relative;
+  }
+  .infoItem img {
+    height: 40px;
+    width: 50px;
+  }
+  .infoItem span {
+    font-family: "changoos", sans-serif; /* Use your custom TTF for these labels */
+    font-size: 40px;
+    text-transform: lowercase;
+  }
+  /* Tooltip on hover for each info item */
+  .infoItem:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: -25px;
+    background: rgba(0,0,0,0.8);
+    padding: 3px 5px;
+    border-radius: 3px;
+    white-space: nowrap;
+    font-size: 10px;
+  }
+  
+  /* Grid View Styles */
+  #discographyGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+  .albumCard {
+    position: relative;
+    cursor: pointer;
+  }
+  .albumCard img {
+    width: 100%;
+    display: block;
+    transition: filter 0.3s;
+  }
+  /* Darken album cover on hover */
+  .albumCard:hover img {
+    filter: brightness(0.8);
+  }
+  /* Release type icon (appears on hover) */
+  .albumCard .typeIcon {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    height: 30px;
+    width: 30px;
+    display: none;
+  }
+  .albumCard:hover .typeIcon {
+    display: block;
+  }
+  
+  /* Overlay (Detailed View) */
+  #overlay {
     position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 1000;}
-
-.back-button img {
-    width: 40px;
-    height: auto;
-    cursor: pointer; 
-}
-
-
-.header {
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.85); /* 85% opacity background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: 1000;
+  }
+  #overlay.show {
+    opacity: 1;
+  }
+  #overlayContent {
+    display: flex;
+    max-width: 800px;
+    width: 90%;
+    background: #111;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  /* Left Side of Overlay */
+  #overlayLeft {
+    flex: 1;
+    padding: 20px;
     text-align: center;
-    margin: 10px 0;
-}
-
-.header img {
-    width: 450px; 
-}
-
-/* 
-.working
-{
-    margin-top: 8vw;
-    width: 100vw;
-} */
+  }
+  #overlayLeft img {
+    max-width: 100%;
+    /* The border effect will be set in JS (using inline styles) */
+  }
+  #artistAttribution {
+    margin-top: 10px;
+    font-family: "Nunito", serif;
+    font-weight: 431;
+  }
+  /* Right Side of Overlay */
+  #overlayRight {
+    flex: 1;
+    padding: 20px;
+  }
+  #songTitle {
+    font-family: "changoos", sans-serif; /* Replace with your custom font name */
+    margin-top: 0;
+  }
+  #releaseType {
+    font-family: "changoos", sans-serif;
+    color: #aaa;
+  }
+  #additionalInfo {
+    font-family: "Nunito", serif;
+    font-weight: 431;
+  }
+  #streamingIcons a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    margin-right: 10px;
+    transition: background-image 0.2s;
+  }
+  /* Example for Spotify icon (repeat similar blocks for others) */
+  a.spotify {
+    background-image: url('assets/icons/spotify-gray.png');
+  }
+  a.spotify:hover {
+    background-image: url('assets/icons/spotify-color.png');
+  }
+  /* Overlay exit text */
+  #overlayExit {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
