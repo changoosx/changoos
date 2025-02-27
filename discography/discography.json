@@ -45,31 +45,30 @@
 
       
     {
-        "title": "Chop",
-        "cover": "assets/covers/chop.jpg",
+        "title": "ataaraxy mrdr",
+        "cover": "assets/covers/ataaraxy.jpg",
         "type": "single",
-        "notes": "Tchop chop chop chop chop",
-        "artist": "changoos",
+        "notes": "oneo of my best works",
+        "artist": "dash fireballs",
         "links": {
-          "spotify": "https://example.com/chop-spotify",
-          "appleMusic": "https://example.com/chop-apple",
-          "youtube": "https://example.com/chop-youtube",
+          "spotify": "https://open.spotify.com/album/6xxcqFUESFtwNydc9OypDc",
+          "appleMusic": "https://music.apple.com/ca/album/ataaraxy-mrdr-ep/1714288321",
+          "youtube": "https://youtube.com/playlist?list=OLAK5uy_kaJhI83kS5OAnI1rea6o9-n1T6il_tQA4&si=2nzSbjjgM6Le3AcA",
           "genius": "https://example.com/chop-genius",
-          "soundcloud": "https://example.com/chop-soundcloud"
+          "soundcloud": "https://soundcloud.com/katex_21/sets/ataaraxy-mrdr-w-changoos"
         }
       },
       
       {
-          "title": "Japan",
-          "cover": "https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F8a75471cab0afae6ddbd05903c4c9172.500x500x1.jpg",
-          "type": "feature",
-          "notes": "hell yea.",
-          "artist": "praggy",
+          "title": "Pakistan",
+          "cover": "https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F750ecfaa26518417e344b38c951d62fe.500x500x1.jpg",
+          "type": "single",
+          "notes": "s/o paki's",
+          "artist": "changoos",
           "links": {
-            "appleMusic": "https://example.com/chop-apple",
-            "youtube": "https://example.com/chop-youtube",
-            "genius": "https://genius.com/Praggy-japan-lyrics",
-            "soundcloud": "https://example.com/chop-soundcloud"
+            "youtubevideo": "https://www.youtube.com/watch?v=eMzwMvc8nsI&pp=ygURY2hhbmdvb3MgcGFraXN0YW4%3D",
+            "genius": "https://genius.com/Changoos-pakistan-lyrics",
+            "soundcloud": "https://soundcloud.com/changoos/pakistan"
           }
         },
   
