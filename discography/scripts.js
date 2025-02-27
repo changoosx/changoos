@@ -3,6 +3,14 @@ let albums = [];
 
 // When the page loads, run these functions
 document.addEventListener('DOMContentLoaded', () => {
+  const grid = document.getElementById("discographyGrid");
+  console.log(grid); // Check if this logs the correct div
+  
+  if (!grid) {
+    console.error("discographyGrid not found! Check your HTML.");
+    return; // Stop execution if the grid isn't found
+  }
+
   loadAlbums();         // Fetch and display albums from JSON
   setupInfoButton();    // Set up the info button hover effect
   setupOverlayExit();   // Set up closing the overlay when clicked
