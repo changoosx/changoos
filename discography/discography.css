@@ -187,11 +187,31 @@ body {
     overflow: visible;
   }
   
-  /* Song title and release type inline */
+  #titleRow {
+    display: flex;
+    align-items: center; /* vertically center them */
+    gap: 8px;           /* small spacing if desired */
+  }
+  
+  #songTitle {
+    margin: 0; /* remove default h2 margin */
+    margin-right: 8px;
+    font-family: "changoos", sans-serif; /* Replace with your custom font name */
+    font-size: 5rem;
+    margin-top: 0;
+  }
+  #releaseType {
+    color: #aaa;
+    
+    font-family: "changoos", sans-serif;
+    font-size: 2rem;
+  }
+
+/* 
   #songTitle {
     display: inline-block;
     margin-right: 8px;
-    font-family: "changoos", sans-serif; /* Replace with your custom font name */
+    font-family: "changoos", sans-serif; 
     font-size: 5rem;
     margin-top: 0;
   }
@@ -201,7 +221,7 @@ body {
     color: #aaa;
     font-family: "changoos", sans-serif;
     font-size: 2rem;
-  }
+  } */
   
   /* Additional info text using Nunito */
   #additionalInfo {
