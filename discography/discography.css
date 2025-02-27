@@ -110,8 +110,8 @@ body {
 
 .albumCard {
     position: relative;
-    width: 100vw;
-    height: 100vw;
+    width: 10vw;
+    height: 10vw;
     overflow: hidden;
     cursor: pointer;
     object-fit: contain;
