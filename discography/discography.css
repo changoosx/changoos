@@ -105,8 +105,8 @@ body {
   /* Each album card is 180x180, with position: relative for layering */
   .albumCard {
     position: relative;
-    width: 180px;
-    height: 180px;
+    width: 230px;
+    height: 230px;
     overflow: hidden;
     cursor: pointer;
     object-fit: contain;
