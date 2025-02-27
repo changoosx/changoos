@@ -122,8 +122,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 110%;
-    height: 110%;
+    width: 120%;
+    height: 120%;
     object-fit: contain;
     transition: filter 0.3s;
     z-index: 1;
