@@ -33,6 +33,7 @@ body {
 
 #infoContainer {
     position: relative;
+    margin-right: 15px;
 }
 
 #infoButton {
