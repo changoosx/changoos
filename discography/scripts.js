@@ -21,8 +21,9 @@ async function loadAlbums() {
 
 // Build the grid of album covers
 function buildGrid() {
-  const grid = document.getElementById('discographyGrid');
-  grid.innerHTML = ""; // Clear any existing content
+  const grid = document.getElementById("discographyGrid");
+console.log(grid); // Check if this logs the correct div
+
 
   // Loop through each album in the JSON data
   albums.forEach(album => {
