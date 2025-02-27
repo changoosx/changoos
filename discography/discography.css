@@ -89,6 +89,7 @@ body {
     width: 90%;
     margin: auto;
   }
+  
 
 .grid-item img {
     width: 100%;
@@ -117,10 +118,11 @@ body {
   /* Each album card is 180x180, with position: relative for layering */
   .albumCard {
     position: relative;
-    width: 180px;
-    height: 180px;
+    width: 180%;
+    height: 180%;
     overflow: hidden;
     cursor: pointer;
+    object-fit: contain;
   }
   
   /* The cover image is absolutely positioned to fill the card */
