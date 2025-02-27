@@ -191,7 +191,7 @@ body {
   #songTitle {
     display: inline-block;
     margin-right: 8px;
-    font-family: "YourCustomFont", sans-serif; /* Replace with your custom font name */
+    font-family: "changoos", sans-serif; /* Replace with your custom font name */
     font-size: 2rem;
     margin-top: 0;
   }
@@ -199,7 +199,7 @@ body {
   #releaseType {
     display: inline-block;
     color: #aaa;
-    font-family: "YourCustomFont", sans-serif;
+    font-family: "changoos", sans-serif;
     font-size: 2rem;
   }
   
