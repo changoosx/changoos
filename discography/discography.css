@@ -258,15 +258,16 @@ body {
     /* same custom font or slightly smaller, etc. */
   }
   
-
   #streamingIcons a {
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-size: cover;
+    width: 50px;           /* bigger container */
+    height: 50px;
+    background-size: contain;  /* no cropping */
+    background-position: center;
+    background-repeat: no-repeat;
     margin-right: 10px;
-    transition: background-image 0.2s;
   }
+  
   
   /* Spotify icon */
   a.spotify {
