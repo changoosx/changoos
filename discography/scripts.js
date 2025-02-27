@@ -103,10 +103,10 @@ releaseType.textContent = `(${album.type})`;
 
   additionalInfo.textContent = album.notes || "";
 
-  if (album.artist && (album.type.toLowerCase() === "feat" || album.type.toLowerCase() === "feature")) {
-    artistAttribution.innerHTML = `by <a href="${album.artistLink || '#'}" target="_blank" style="color:rgb(216, 216, 216);">${album.artist}</a>`;
+if (album.artist && (album.type.toLowerCase() === "feat" || album.type.toLowerCase() === "feature")) {
+    artistAttribution.innerHTML = `by <a href="${album.artistLink || '#'}" target="_blank" style="color:rgb(229, 229, 229);">${album.artist}</a>`;
 } else {
-    artistAttribution.innerHTML = `by <span style="color:rgb(224, 224, 224);">changoos</span>`;
+    artistAttribution.innerHTML = `by <span style="color: #FFD700;">changoos</span>`;
 }
 
 
