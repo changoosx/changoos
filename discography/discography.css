@@ -127,7 +127,7 @@ body {
     height: 10vw;
     object-fit: contain;
     transition: filter 0.3s;
-    z-index: 1;
+    z-index: 0;
 }
 
 .albumCard .borderImg {
