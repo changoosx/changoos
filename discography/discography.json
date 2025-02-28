@@ -1,4 +1,5 @@
 [
+
     {
       "title": "Chop",
       "cover": "assets/covers/chop.jpg",
@@ -20,6 +21,7 @@
         "type": "feature",
         "notes": "hell yea.",
         "artist": "praggy",
+        "artistlink": "https://soundcloud.com/1praggy",
         "links": {
           "appleMusic": "https://example.com/chop-apple",
           "youtube": "https://example.com/chop-youtube",
