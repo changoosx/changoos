@@ -182,8 +182,8 @@ body {
 #overlayContent {
     display: flex;
     gap: 20px;
-    max-width: 90%;
-    width: 800px;
+    max-width: 100%;
+    width: 1000px;
     padding: 10px;
     background: none;
     border-radius: 0;
