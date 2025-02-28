@@ -99,6 +99,14 @@ body {
     margin: auto;
 }
 
+
+.grid-item {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
 .grid-item img {
     width: 100%;
     height: auto;
@@ -106,19 +114,14 @@ body {
     border-radius: 0;
 }
 
-.grid-item {
-    aspect-ratio: 1 / 1;
-    position: relative;
-    overflow: hidden;
-}
-
 .albumCard {
     position: relative;
-    width: 254px;
-    height: 254px;
+    width: 100%;
+    height: auto;
     overflow: hidden;
     cursor: pointer;
     object-fit: contain;
+    aspect-ratio: 1 / 1;
 }
 
 .albumCard .coverImg {
