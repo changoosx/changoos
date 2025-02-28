@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   console.log(grid);
   
   if (!grid) {
-    console.error("discographyGrid not found! Check your HTML.");
+    console.error("oh no changos no discography grid found bbg muah");
     return; 
   }
 
