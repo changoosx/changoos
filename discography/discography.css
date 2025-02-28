@@ -107,6 +107,7 @@ body {
 }
 
 .grid-item {
+    aspect-ratio: 1 / 1;
     position: relative;
     overflow: hidden;
 }
