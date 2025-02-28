@@ -1,19 +1,5 @@
 [
 
-    {
-      "title": "Chop",
-      "cover": "https://i1.sndcdn.com/artworks-UKZ9U9hU9YLROfFd-v2ku3w-t500x500.jpg",
-      "type": "single",
-      "notes": "Tchop chop chop chop chop",
-      "artist": "changoos",
-      "links": {
-        "spotify": "https://open.spotify.com/track/4mWraOPw50BU3edLiOm6xG",
-        "appleMusic": "https://music.apple.com/in/album/chop-single/1707068706",
-        "youtube": "https://www.youtube.com/watch?v=68trIMJwbFM&pp=ygUNY2hhbmdvb3MgY2hvcA%3D%3D",
-        "genius": "https://genius.com/Changoos-chop-lyrics",
-        "soundcloud": "https://soundcloud.com/changoos/chop"
-      }
-    },
     
     {
         "title": "Japan",
@@ -96,7 +82,22 @@
         "links": {
           "soundcloud": "https://soundcloud.com/rico_slaygang/cravin-4-u-w-jay33d-changoos-bonus"
         }
+      },
+      
+    {
+      "title": "Chop",
+      "cover": "https://i1.sndcdn.com/artworks-UKZ9U9hU9YLROfFd-v2ku3w-t500x500.jpg",
+      "type": "single",
+      "notes": "Tchop chop chop chop chop",
+      "artist": "changoos",
+      "links": {
+        "spotify": "https://open.spotify.com/track/4mWraOPw50BU3edLiOm6xG",
+        "appleMusic": "https://music.apple.com/in/album/chop-single/1707068706",
+        "youtube": "https://www.youtube.com/watch?v=68trIMJwbFM&pp=ygUNY2hhbmdvb3MgY2hvcA%3D%3D",
+        "genius": "https://genius.com/Changoos-chop-lyrics",
+        "soundcloud": "https://soundcloud.com/changoos/chop"
       }
+    },
 
     
   
