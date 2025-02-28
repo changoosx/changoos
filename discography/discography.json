@@ -48,14 +48,13 @@
         "title": "ataaraxy mrdr",
         "cover": "assets/covers/ataaraxy.jpeg",
         "type": "feature",
-        "notes": "oneo of my best works",
+        "notes": "one of my best works",
         "artist": "dash fireballs",
         "artistlink": "https://guns.lol/dash_fireballs",
         "links": {
           "spotify": "https://open.spotify.com/album/6xxcqFUESFtwNydc9OypDc",
           "appleMusic": "https://music.apple.com/ca/album/ataaraxy-mrdr-ep/1714288321",
           "youtube": "https://youtube.com/playlist?list=OLAK5uy_kaJhI83kS5OAnI1rea6o9-n1T6il_tQA4&si=2nzSbjjgM6Le3AcA",
-          "genius": "https://example.com/chop-genius",
           "soundcloud": "https://soundcloud.com/katex_21/sets/ataaraxy-mrdr-w-changoos"
         }
       },
@@ -75,18 +74,28 @@
   
         {
           "title": "Purple Jeans",
-          "cover": "assets/covers/purple.jpg",
+          "cover": "https://i1.sndcdn.com/artworks-uKf7hs6fglsNNJL3-kKap7A-t500x500.jpg",
           "type": "single",
-          "notes": "TCOOK KRAK BTICH",
+          "notes": "this the parle g anthem",
           "artist": "changoos",
           "links": {
-            "spotify": "https://example.com/chop-spotify",
-            "appleMusic": "https://example.com/chop-apple",
-            "youtubevideo": "https://example.com/chop-youtube",
-            "genius": "https://example.com/chop-genius",
-            "soundcloud": "https://example.com/chop-soundcloud"
+            "soundcloud": "https://soundcloud.com/changoos/psilocybin-parlegs"
           }
+        },
+
+        
+      {
+        "title": "Purple Jeans",
+        "cover": "assets/covers/purple.jpg",
+        "type": "feature",
+        "notes": "😩",
+        "artist": "ihyRico",
+        "artistlink": "https://soundcloud.com/rico_slaygang",
+        "links": {
+          "soundcloud": "https://soundcloud.com/rico_slaygang/cravin-4-u-w-jay33d-changoos-bonus"
         }
+      },
+
     
   
 ]
