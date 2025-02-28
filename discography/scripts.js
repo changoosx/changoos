@@ -25,7 +25,7 @@ async function loadAlbums() {
 
 function buildGrid() {
   const grid = document.getElementById("discographyGrid");
-console.log(grid); // Check if this logs the correct div
+console.log(grid);
 
 
   albums.forEach(album => {
