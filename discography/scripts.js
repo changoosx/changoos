@@ -71,9 +71,9 @@ function getRandomBorder() {
 function getTypeIcon(type) {
   if (!type) return "";
   type = type.toLowerCase();
-  if (type === "feat" || type === "feature") return "assets/icons/caterpillar.png";
+  if (type === "feat" || type === "feature" || type === "collab" || type === "collab EP") return "assets/icons/caterpillar.png";
   if (type === "single") return "assets/icons/cocoon.png";
-  if (type === "tape" || type === "album") return "assets/icons/butterfly.png";
+  if (type === "tape" || type === "album" || type === "EP") return "assets/icons/butterfly.png";
   return "";
 }
 
