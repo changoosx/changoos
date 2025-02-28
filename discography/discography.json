@@ -1,6 +1,17 @@
 [
 
-    
+  
+  {
+    "title": "Psylocybin Parle - Gs",
+    "cover": "https://i1.sndcdn.com/artworks-uKf7hs6fglsNNJL3-kKap7A-t500x500.jpg",
+    "type": "single",
+    "notes": "this the parle g anthem",
+    "artist": "changoos",
+    "links": {
+      "soundcloud": "https://soundcloud.com/changoos/psilocybin-parlegs"
+    }
+  },
+
     {
         "title": "Japan",
         "cover": "https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F8a75471cab0afae6ddbd05903c4c9172.500x500x1.jpg",
@@ -15,6 +26,34 @@
           "soundcloud": "https://example.com/chop-soundcloud"
         }
       },
+
+      
+      {
+        "title": "Pakistan",
+        "cover": "https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F750ecfaa26518417e344b38c951d62fe.500x500x1.jpg",
+        "type": "single",
+        "notes": "s/o paki's",
+        "artist": "changoos",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=eMzwMvc8nsI&pp=ygURY2hhbmdvb3MgcGFraXN0YW4%3D",
+          "genius": "https://genius.com/Changoos-pakistan-lyrics",
+          "soundcloud": "https://soundcloud.com/changoos/pakistan"
+        }
+      },
+
+      
+      {
+        "title": "Cravin 4 u",
+        "cover": "https://i1.sndcdn.com/artworks-aGaytBLs4ydEr2je-9ZBZsA-t500x500.jpg",
+        "type": "feature",
+        "notes": "with Jayeed",
+        "artist": "ihyRico",
+        "artistlink": "https://soundcloud.com/rico_slaygang",
+        "links": {
+          "soundcloud": "https://soundcloud.com/rico_slaygang/cravin-4-u-w-jay33d-changoos-bonus"
+        }
+      },
+      
 
       {
         "title": "Purple Jeans",
@@ -47,43 +86,8 @@
         }
       },
       
-      {
-          "title": "Pakistan",
-          "cover": "https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F750ecfaa26518417e344b38c951d62fe.500x500x1.jpg",
-          "type": "single",
-          "notes": "s/o paki's",
-          "artist": "changoos",
-          "links": {
-            "youtube": "https://www.youtube.com/watch?v=eMzwMvc8nsI&pp=ygURY2hhbmdvb3MgcGFraXN0YW4%3D",
-            "genius": "https://genius.com/Changoos-pakistan-lyrics",
-            "soundcloud": "https://soundcloud.com/changoos/pakistan"
-          }
-        },
   
-        {
-          "title": "Psylocybin Parle - Gs",
-          "cover": "https://i1.sndcdn.com/artworks-uKf7hs6fglsNNJL3-kKap7A-t500x500.jpg",
-          "type": "single",
-          "notes": "this the parle g anthem",
-          "artist": "changoos",
-          "links": {
-            "soundcloud": "https://soundcloud.com/changoos/psilocybin-parlegs"
-          }
-        },
-
         
-      {
-        "title": "Cravin 4 u",
-        "cover": "https://i1.sndcdn.com/artworks-aGaytBLs4ydEr2je-9ZBZsA-t500x500.jpg",
-        "type": "feature",
-        "notes": "with Jayeed",
-        "artist": "ihyRico",
-        "artistlink": "https://soundcloud.com/rico_slaygang",
-        "links": {
-          "soundcloud": "https://soundcloud.com/rico_slaygang/cravin-4-u-w-jay33d-changoos-bonus"
-        }
-      },
-      
     {
       "title": "Chop",
       "cover": "https://i1.sndcdn.com/artworks-UKZ9U9hU9YLROfFd-v2ku3w-t500x500.jpg",
