@@ -35,6 +35,7 @@ console.log(grid);
     const cover = document.createElement('img');
     cover.src = album.cover;
     cover.alt = album.title;
+    cover.classList.add('coverImg');
     card.appendChild(cover);
 
     const border = document.createElement('img');
