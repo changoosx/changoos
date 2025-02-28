@@ -116,7 +116,7 @@ if (album.artist && (album.type.toLowerCase() === "feat" || album.type.toLowerCa
       if (album.links[platform]) {
         const a = document.createElement("a");
         a.href = album.links[platform];
-        a.target = "_blank";
+        a.target = "_blank"; 
         a.classList.add(platform);
         streamingIcons.appendChild(a);
       }
