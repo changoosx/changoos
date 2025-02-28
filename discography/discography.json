@@ -53,7 +53,23 @@
           "soundcloud": "https://soundcloud.com/rico_slaygang/cravin-4-u-w-jay33d-changoos-bonus"
         }
       },
+    
       
+        
+    {
+      "title": "Slow Down",
+      "cover": "---------------------------------------------",
+      "type": "single",
+      "notes": "prod. skidee",
+      "artist": "changoos",
+      "links": {
+        "spotify": "---------------------------",
+        "appleMusic": "---------------------------",
+        "youtube": "-----------------------------",
+        "genius": "------------------------------",
+        "soundcloud": "---------------"
+      }
+    },
 
       {
         "title": "Purple Jeans",
@@ -87,6 +103,38 @@
       },
       
   
+    
+
+    {
+      "title": "Kendo",
+      "cover": "assets/covers/kendo.jpg",
+      "type": "single",
+      "notes": " T the fuck up bitch",
+      "artist": "changoos",
+      "links": {
+        "spotify": "https://example.com/chop-spotify",
+        "appleMusic": "https://example.com/chop-apple",
+        "youtubevideo": "https://example.com/chop-youtube",
+        "genius": "https://example.com/chop-genius",
+        "soundcloud": "https://example.com/chop-soundcloud"
+      }
+    },
+
+    
+    {
+      "title": "Hand full of pennies",
+      "cover": "------------------------------------------------",
+      "type": "single",
+      "notes": "prod. cashheart",
+      "artist": "changoos",
+      "links": {
+        "youtubevideo": "https://example.com/chop-youtube",
+        "genius": "https://example.com/chop-genius",
+        "soundcloud": "https://example.com/chop-soundcloud"
+      }
+    },
+    
+    
         
     {
       "title": "Chop",
@@ -101,9 +149,37 @@
         "genius": "https://genius.com/Changoos-chop-lyrics",
         "soundcloud": "https://soundcloud.com/changoos/chop"
       }
-    }
+    },
 
     
+    {
+      "title": "No Drugz",
+      "cover": "---------------------------",
+      "type": "single",
+      "notes": " prod skidee",
+      "artist": "changoos",
+      "links": {
+        "spotify": "---------------------------",
+        "appleMusic": "---------------------------",
+        "youtube": "---------------------------",
+        "genius": "---------------------------",
+        "soundcloud": "---------------------------"
+      },
   
+   
+    {
+      "title": "Matte Maxima",
+      "cover": "---------------------------",
+      "type": "single",
+      "notes": "genesis",
+      "artist": "changoos",
+      "links": {
+        "spotify": "---------------------------",
+        "appleMusic": "---------------------------",
+        "youtube": "---------------------------",
+        "genius": "---------------------------",
+        "soundcloud": "---------------------------"
+      }
+    }
 ]
 
