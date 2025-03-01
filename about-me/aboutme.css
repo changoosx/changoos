@@ -14,6 +14,24 @@ body {
       }
       
 
+      ::-webkit-scrollbar {
+        width: 18px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background: rgb(17, 17, 17);
+    } 
+    
+    ::-webkit-scrollbar-thumb {
+        width: 17px;
+        background: url('images/scrollbar-thumb.png') no-repeat center center;
+        background-size: cover;
+    }
+    
+    ::-webkit-scrollbar-button {
+        display: none;
+    }
+    
 .back-button {
     position: fixed;
     top: 20px;

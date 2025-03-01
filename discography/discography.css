@@ -95,6 +95,24 @@ body {
     font-size: 10px;
 }
 
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+} 
+
+::-webkit-scrollbar-thumb {
+    background: url('assets/covers/scrollbar-thumb.png') no-repeat center center;
+    background-size: cover;
+
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
 #discographyGrid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
