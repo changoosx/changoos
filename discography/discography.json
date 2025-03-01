@@ -5,12 +5,26 @@
     "title": "Psylocybin ParleGs",
     "cover": "https://i1.sndcdn.com/artworks-uKf7hs6fglsNNJL3-kKap7A-t500x500.jpg",
     "type": "single",
-    "notes": "the parle g anthem",
+    "notes": "(prod. by frustration), featuring jay33d's fuckass",
     "artist": "changoos",
     "links": {
       "soundcloud": "https://soundcloud.com/changoos/psilocybin-parlegs"
     }
   },
+
+  
+  {
+    "title": "Cravin 4 u",
+    "cover": "https://i1.sndcdn.com/artworks-aGaytBLs4ydEr2je-9ZBZsA-t500x500.jpg",
+    "type": "feature",
+    "notes": "",
+    "artist": "ihyRico",
+    "artistLink":"https://soundcloud.com/babyric01",
+    "links": {
+      "soundcloud": "https://soundcloud.com/rico_slaygang/cravin-4-u-w-jay33d-changoos-bonus"
+    }
+  },
+ 
 
     {
         "title": "Japan",
@@ -42,25 +56,12 @@
       },
 
       
-      {
-        "title": "Cravin 4 u",
-        "cover": "https://i1.sndcdn.com/artworks-aGaytBLs4ydEr2je-9ZBZsA-t500x500.jpg",
-        "type": "feature",
-        "notes": "with Jayeed",
-        "artist": "ihyRico",
-        "artistLink":"https://soundcloud.com/babyric01",
-        "links": {
-          "soundcloud": "https://soundcloud.com/rico_slaygang/cravin-4-u-w-jay33d-changoos-bonus"
-        }
-      },
-    
-      
         
     {
       "title": "Slow Down",
       "cover": "https://i1.sndcdn.com/artworks-ieiwcv7P3cuuJgd0-Kzj5mA-t500x500.jpg",
       "type": "single",
-      "notes": "prod. skidee",
+      "notes": "(prod. by skidee)",
       "artist": "changoos",
       "links": {
         "spotify": "https://open.spotify.com/album/2UwFdkVV3CEVoTpIIv2NVo",
@@ -71,11 +72,88 @@
       }
     },
 
+      
+    {
+      "title": "LET ME GO",
+      "cover": "https://i1.sndcdn.com/artworks-lPmWC52pMHVHVjZG-iH9GTQ-t500x500.jpg",
+      "type": "single",
+      "notes": "(prod. 1licketyyy x @vvsmalibu x silokilledthis)",
+      "artist": "changoos",
+      "links": {
+        "spotify": "https://open.spotify.com/album/0viPc3NVzNgh3H6ey1TZHL?si=TLp2-5aASU6YkT3WS7m4UQ",
+        "appleMusic": "https://music.apple.com/us/album/let-me-go-single/1758893548",
+        "youtube": "https://youtu.be/eeiSPz_tCb4",
+        "genius": "https://genius.com/Changoos-let-me-go-lyrics",
+        "soundcloud": "https://soundcloud.com/changoos/letmego"
+      }
+    },
+
+    
+    {
+      "title": "icbm",
+      "cover": "https://i1.sndcdn.com/artworks-VRxPflI3JGdIypUU-A5yYuQ-t500x500.jpg",
+      "type": "feature",
+      "notes": "(prod. by dash fireballs, reallyindig0, prodyungrobin) another CHH banger",
+      "artist": "dash fireballs",
+      "artistLink":"https://guns.lol/dash_fireballs",
+      "links": {
+        "soundcloud": "https://soundcloud.com/katex_21/icbm-w-changoos"
+      }
+    },
+
+    
+    {
+      "title": "Killa witta fist",
+      "cover": "https://i1.sndcdn.com/artworks-IwoIuGof7RzrsyJg-B3qvKg-t500x500.jpg",
+      "type": "single",
+      "notes": "(prod. macks), we made this at my house and the room was fuming holy shit watch the vlog if u wanna its the white youtube button ",
+      "artist": "changoos",
+      "links": {
+        "youtube":"https://www.youtube.com/watch?v=DkjpWFWPFu4",
+        "youtubevideo": "https://www.youtube.com/watch?v=r0MVtpIp2jI",
+        "genius": "https://genius.com/Changoos-killa-witta-fist-lyrics",
+        "soundcloud": "https://example.com/chop-soundcloud",
+        "appleMusic":"https://music.apple.com/us/album/killa-witta-fist-single/1748011074"
+      }
+    },
+
+    
+    {
+      "title": "Hand full of pennies",
+      "cover": "https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F36676066deab7136fbb5ec2494089512.500x500x1.jpg",
+      "type": "single",
+      "notes": "(prod. yeetohead), and its hand fulla pennies not penises stop w that bs fore come over and knock the fuck out of u ",
+      "artist": "changoos",
+      "links": {
+        "youtubevideo": "https://www.youtube.com/watch?v=DkjpWFWPFu4",
+        "genius": "https://example.com/chop-genius",
+        "soundcloud": "https://example.com/chop-soundcloud"
+      }
+    },
+
+
+    {
+      "title": "Kendo",
+      "cover": "https://i1.sndcdn.com/artworks-bMflzxkizdqXs2aZ-y05D1w-t500x500.jpg",
+      "type": "single",
+      "notes": " (prod. by evyl) T the fuck up bitch",
+      "artist": "changoos",
+      "links": {
+        "spotify": "https://open.spotify.com/album/5qHI8veYIBvijUWTyE0rlf?si=dxnxCDl1QXWViJCVT2G8Kg",
+        "appleMusic": "https://music.apple.com/us/album/kendo-single/1743437621",
+        "youtubevideo": "https://example.com/chop-youtube",
+        "genius": "-----",
+        "soundcloud": "https://soundcloud.com/changoos/kendo"
+      }
+    },
+
+    
+
       {
         "title": "Purple Jeans",
         "cover": "https://i1.sndcdn.com/artworks-DqU0rUdnYQuzQeLx-n62FkA-t500x500.jpg",
         "type": "single",
-        "notes": "prod. cashheart",
+        "notes": "(prod. by cashheart)",
         "artist": "changoos",
         "links": {
           "youtubevideo": "https://www.youtube.com/watch?v=bToMRJgH47Q",
@@ -89,7 +167,7 @@
         "title": "ataaraxy mrdr",
         "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/24/68/5c/24685c2c-9ea0-e1e1-5054-008a3cf84eeb/artwork.jpg/600x600bb.jpg",
         "type": "collab",
-        "notes": "one of my best works with dash",
+        "notes": "(prod. by dash fireballs) one of my best works with dash",
         "artist": "dash fireballs",
         "artistLink": "https://guns.lol/dash_fireballs",
         "links": {
@@ -100,41 +178,43 @@
         }
       },
       
+
+      {
+        "title": "Chop",
+        "cover": "https://i1.sndcdn.com/artworks-UKZ9U9hU9YLROfFd-v2ku3w-t500x500.jpg",
+        "type": "single",
+        "notes": "(prod. by skidee) chop chop chop chop chop",
+        "artist": "changoos",
+        "links": {
+          "spotify": "https://open.spotify.com/track/4mWraOPw50BU3edLiOm6xG",
+          "appleMusic": "https://music.apple.com/in/album/chop-single/1707068706",
+          "youtube": "https://www.youtube.com/watch?v=68trIMJwbFM&pp=ygUNY2hhbmdvb3MgY2hvcA%3D%3D",
+          "genius": "https://genius.com/Changoos-chop-lyrics",
+          "soundcloud": "https://soundcloud.com/changoos/chop"
+        }
+      },
+    
+
+    
     {
-      "title": "Kendo",
-      "cover": "https://i1.sndcdn.com/artworks-bMflzxkizdqXs2aZ-y05D1w-t500x500.jpg",
+      "title": "Cant Wait",
+      "cover": "https://i1.sndcdn.com/artworks-w5IPGZP88hVYzFcy-Njc1yA-t500x500.jpg",
       "type": "single",
-      "notes": " T the fuck up bitch",
+      "notes": " (prod. by seemther), first song into 2023",
       "artist": "changoos",
       "links": {
-        "spotify": "https://example.com/chop-spotify",
-        "appleMusic": "https://example.com/chop-apple",
-        "youtubevideo": "https://example.com/chop-youtube",
-        "genius": "https://example.com/chop-genius",
-        "soundcloud": "https://example.com/chop-soundcloud"
+        "spotify": "https://open.spotify.com/album/14MlHjOPfhTx3PUbz9Q6Qe?si=EWyvB_hlSxCXH8MITQAz1A",
+        "appleMusic": "https://music.apple.com/us/album/cant-wait-single/1662120850",
+        "soundcloud": "https://soundcloud.com/changoos/cant-wait"
       }
     },
 
     
     {
-      "title": "Hand full of pennies",
-      "cover": "https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F36676066deab7136fbb5ec2494089512.500x500x1.jpg",
+      "title": "Aquafina",
+      "cover": "https://i1.sndcdn.com/artworks-dsyMQckOzUF5ymul-5LzpJw-t500x500.jpg",
       "type": "single",
-      "notes": "prod. cashheart",
-      "artist": "changoos",
-      "links": {
-        "youtubevideo": "https://www.youtube.com/watch?v=DkjpWFWPFu4",
-        "genius": "https://example.com/chop-genius",
-        "soundcloud": "https://example.com/chop-soundcloud"
-      }
-    },
-    
-        
-    {
-      "title": "Chop",
-      "cover": "https://i1.sndcdn.com/artworks-UKZ9U9hU9YLROfFd-v2ku3w-t500x500.jpg",
-      "type": "single",
-      "notes": "prod. skidee chop chop chop chop chop",
+      "notes": "(prod. by vcash, matte roxx), purp/vcash is an amazing guy, only guys beats i preffered when i was doing the rage stuff",
       "artist": "changoos",
       "links": {
         "spotify": "https://open.spotify.com/track/4mWraOPw50BU3edLiOm6xG",
@@ -147,17 +227,32 @@
 
     
     {
+      "title": "Paper Mags",
+      "cover": "https://i1.sndcdn.com/artworks-Ln0D633KrRzNHuTF-XP89Pw-t500x500.jpg",
+      "type": "ep",
+      "notes": "(prod. by skidee), my first Ep it was really fun. Skidee tried to make sum ##B4AMG's & SRT's type beats",
+      "artist": "changoos",
+      "links": {
+        "spotify": "https://open.spotify.com/album/4tS9eeiKwKSQ7LJi3U96Do?si=MzVZX5f3Q36Irv_lun6nGA",
+        "appleMusic": "https://music.apple.com/us/album/paper-mags-ep/1655669521",
+        "youtube": "https://www.youtube.com/watch?v=pPJp3fYY0-0&list=PLZthS5yjCS1V0Uc1_G4tU9ya51GpXEDI8",
+        "genius": "https://genius.com/albums/Changoos/Paper-mags",
+        "soundcloud": "https://soundcloud.com/changoos/sets/paper-mags"
+      }
+    },
+    
+    {
       "title": "No Drugz",
       "cover": "https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2Fce34863b550733d07dcd46861e179f46.500x500x1.jpg",
       "type": "single",
-      "notes": "prod. by skidee",
+      "notes": "(prod. by skidee), yea ion fw drugs shit lame asf ",
       "artist": "changoos",
       "links": {
-        "spotify": "---------------------------",
-        "appleMusic": "---------------------------",
-        "youtube": "---------------------------",
+        "spotify": "https://open.spotify.com/track/5mbqH9jhrVwJQwf3lL15AD?si=d91b7f8fc89945c4",
+        "appleMusic": "https://music.apple.com/gb/album/no-drugz-single/1651445160",
+        "youtube": "https://www.youtube.com/watch?v=7V4CqduqV6g",
         "genius": "https://genius.com/Changoos-no-drugz-lyrics-",
-        "soundcloud": "---------------------------"
+        "soundcloud": "https://soundcloud.com/changoos/changoos-no-drugz"
       }
     },
    
@@ -165,7 +260,7 @@
       "title": "Matte Maxima",
       "cover": "https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F0437f7087b36b002a2dd4c4a9c36501d.500x500x1.jpg",
       "type": "single",
-      "notes": "prod. by skidee and okmanish",
+      "notes": "(prod. by skidee and okmanish), where it all started damn. Was a really basic song but everybody loved it. my music dont sound nothing like this anymore though",
       "artist": "changoos",
       "links": {
         "spotify": "https://open.spotify.com/track/6wyppUcSjIxQEdPPlq8Pl7?",

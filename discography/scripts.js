@@ -74,7 +74,7 @@ function getTypeIcon(type) {
   type = type.toLowerCase();
   if (type === "feat" || type === "feature" || type === "collab") return "assets/icons/caterpillar.png";
   if (type === "single") return "assets/icons/cocoon.png";
-  if (type === "tape" || type === "album" || type === "EP" ) return "assets/icons/butterfly.png";
+  if (type === "tape" || type === "album" || type === "ep" ) return "assets/icons/butterfly.png";
   return "";
 }
 
@@ -117,7 +117,7 @@ if (album.artist && (album.type.toLowerCase() === "feat" || album.type.toLowerCa
 
   streamingIcons.innerHTML = ""; 
   if (album.links) {
-    ["youtube", "youtubevideo", "soundcloud", "genius", "spotify", "appleMusic"].forEach(platform => {
+    ["youtubevideo", "youtube", "soundcloud", "genius", "spotify", "appleMusic"].forEach(platform => {
       if (album.links[platform]) {
         const a = document.createElement("a");
         a.href = album.links[platform];
