@@ -104,7 +104,7 @@ releaseType.textContent = `(${album.type})`;
 
   additionalInfo.textContent = album.notes || "";
 
-if (album.artist && (album.type.toLowerCase() === "feat" || album.type.toLowerCase() === "feature")) {
+if (album.artist && (album.type.toLowerCase() === "feat" || album.type.toLowerCase() === "feature") || album.type.toLowerCase() === "collab") {
     const artistName = album.artist;
     const artistLink = album.artistLink || "#";
 
