@@ -160,22 +160,116 @@
       }
     },
 
+    {
+      "title": "Hell",
+      "cover": "https://i1.sndcdn.com/artworks-Vyou7m0y6Vni173e-x9EY3A-t500x500.jpg",
+      "type": "single",
+      "notes": " (prod. kkoreaxo + texo), feat. nuelhinks",
+      "artist": "changoos",
+      "links": {
+        "youtube":"https://www.youtube.com/watch?v=TXPx-7mQWJY",
+        "genius": "-----",
+        "soundcloud": "https://soundcloud.com/changoos/hell"
+      }
+    },
+
+    {
+      "title": "Xtended",
+      "cover": "https://i1.sndcdn.com/artworks-LO8YyNOoQGR8d3Je-H4jpIw-t500x500.jpg",
+      "type": "single",
+      "notes": "(prod. encino), Sky was boutta hop on this bit but he never did i still wish he did :/",
+      "artist": "changoos",
+      "links": {
+        "youtube":"https://www.youtube.com/watch?v=TXPx-7mQWJY",
+        "genius": "-----",
+        "soundcloud": "https://soundcloud.com/changoos/xtended"
+      }
+    },
     
+    {
+      "title": "Purple Jeans",
+      "cover": "https://i1.sndcdn.com/artworks-DqU0rUdnYQuzQeLx-n62FkA-t500x500.jpg",
+      "type": "single",
+      "notes": "(prod. by cashheart)",
+      "artist": "changoos",
+      "links": {
+        "youtubevideo": "https://www.youtube.com/watch?v=bToMRJgH47Q",
+        "genius": "https://genius.com/Changoos-purple-jeans-lyrics",
+        "soundcloud": "https://soundcloud.com/changoos/purple-jeans"
+      }
+    },
 
-      {
-        "title": "Purple Jeans",
-        "cover": "https://i1.sndcdn.com/artworks-DqU0rUdnYQuzQeLx-n62FkA-t500x500.jpg",
-        "type": "single",
-        "notes": "(prod. by cashheart)",
-        "artist": "changoos",
-        "links": {
-          "youtubevideo": "https://www.youtube.com/watch?v=bToMRJgH47Q",
-          "genius": "https://genius.com/Changoos-purple-jeans-lyrics",
-          "soundcloud": "https://soundcloud.com/changoos/purple-jeans"
-        }
-      },
+    
+    {
+      "title": "Hella on My plate",
+      "cover": "https://i1.sndcdn.com/artworks-TnG6LztyhJjWQawj-b7erGw-t500x500.jpg",
+      "type": "feature",
+      "notes": "rico needa tag producers bra",
+      "artist": "ihyRico",
+      "artistLink":"https://soundcloud.com/babyric01",
+      "links": {
+        "genius": "-----",
+        "soundcloud": "https://soundcloud.com/rico_slaygang/hella-on-my-plate-feat"
+      }
+    },
 
-      
+    
+    {
+      "title": "Fufu",
+      "cover": "https://i1.sndcdn.com/artworks-n2vpyulrTGJBJ0C0-1PjVPw-t500x500.jpg",
+      "type": "single",
+      "notes": "(prod. by skidee)",
+      "artist": "changoos",
+      "links": {
+        "youtube":"https://www.youtube.com/watch?v=VN_5l7d2AJo",
+        "genius": "https://genius.com/Changoos-fufu-lyrics",
+        "soundcloud": "https://soundcloud.com/changoos/fufu",
+        "appleMusic":"https://music.apple.com/us/album/fufu-single/1721777800",
+        "spotify":"https://open.spotify.com/album/3VuWXtgupZy2bCxJDPf0Ho?si=LVavD5z1S-yDoYxEhpK7aQ"
+      }
+    },
+    
+    {
+      "title": "Dora",
+      "cover": "https://i1.sndcdn.com/artworks-6z0RXczDmZI9yeX1-yPhKDw-t1080x1080.jpg",
+      "type": "single",
+      "notes": "yea idk what i was on when i made this",
+      "artist": "changoos",
+      "links": {
+        "youtube": "https://www.youtube.com/watch?v=ckcgeXwur-I",
+        "genius": "https://genius.com/Changoos-dora-lyrics",
+        "soundcloud": "https://soundcloud.com/changoos/dora"
+      }
+    },  
+
+    {
+      "title": "Gaze Eyes",
+      "cover": "https://i1.sndcdn.com/artworks-weFPCvlkanxgscJD-h1PI7g-t1080x1080.jpg",
+      "type": "feature",
+      "notes": "(prod. by spinny)",
+      "artist": "aszu",
+      "artistLink":"https://soundcloud.com/okayaszu",
+      "links": {
+        "soundcloud": "https://soundcloud.com/okayaszu/gaze-eyes"
+      }
+    },  
+
+    
+    {
+      "title": "Wrong",
+      "cover": "https://i1.sndcdn.com/artworks-t3U2KxFBVYESOgVG-b9czjg-t1080x1080.jpg",
+      "type": "single",
+      "notes": "(prod. by dash fireballs)",
+      "artist": "changoos",
+      "links": {
+        "spotify": "https://open.spotify.com/album/4wnzKRideKtKFMyVEbzyXv?si=TjnvLpAqQ_CyCgWXUeG2Qg",
+        "appleMusic":"https://music.apple.com/us/album/wrong-single/1717739891",
+        "genius":"https://genius.com/Changoos-wrong-lyrics",
+        "youtube":"https://www.youtube.com/watch?v=WVWcR6Yzt70",
+        "soundcloud": "https://soundcloud.com/changoos/wrong"
+      }
+    },  
+
     {
         "title": "ataaraxy mrdr",
         "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/24/68/5c/24685c2c-9ea0-e1e1-5054-008a3cf84eeb/artwork.jpg/600x600bb.jpg",
@@ -192,6 +286,37 @@
       },
       
 
+
+      {
+        "title": "Hot Sauce",
+        "cover": "https://i1.sndcdn.com/artworks-PvC6iy8LbzqPRxL9-hbly3w-t1080x1080.jpg",
+        "type": "single",
+        "notes": "(prod. by skidee)",
+        "artist": "changoos",
+        "links": {
+          "spotify": "https://open.spotify.com/album/2wWu75NmGOasJhLAODaYeu?si=ePHbgoNbRsKxQ7Rmo3QSbA",
+          "appleMusic":"https://music.apple.com/us/album/hot-sauce-feat-skidee-single/1711782807",
+          "genius":"https://genius.com/Changoos-hot-sauce-feat-skidee-lyrics",
+          "youtube":"https://www.youtube.com/watch?v=wzDwJDkU3Ks",
+          "soundcloud": "https://soundcloud.com/changoos/hot-sauce"
+        }
+      },
+      
+      
+      {
+        "title": "Hcl",
+        "cover": "https://i1.sndcdn.com/artworks-XsOnqYx249IxoYzE-VO1s4A-t1080x1080.jpg",
+        "type": "single",
+        "notes": "(prod. by Jayze)",
+        "artist": "changoos",
+        "links": {
+          "genius":"https://genius.com/Changoos-hcl-lyrics",
+          "youtube":"https://www.youtube.com/watch?v=tncWZbVV9HQ",
+          "soundcloud": "https://soundcloud.com/changoos/hcl"
+        }
+      },
+
+      
       {
         "title": "Chop",
         "cover": "https://i1.sndcdn.com/artworks-UKZ9U9hU9YLROfFd-v2ku3w-t500x500.jpg",
@@ -206,8 +331,83 @@
           "soundcloud": "https://soundcloud.com/changoos/chop"
         }
       },
-    
+      
+      {
+        "title": "Bloodbath",
+        "cover": "https://i1.sndcdn.com/artworks-RTQ4mcfHA5Y7YoTc-UrCPlg-t1080x1080.jpg",
+        "type": "single",
+        "notes": "(prod. by mistxked)",
+        "artist": "changoos",
+        "links": {
+          "genius":"https://genius.com/Changoos-bloodbath-lyrics",
+          "youtube":"https://www.youtube.com/watch?v=VjfSITs9zpY",
+          "spotify":"https://open.spotify.com/album/35m1xXYW7tAD859Xrb65OZ?si=sLH8KP7lQG6QJSdJaNsvqA",
+          "appleMusic":"https://music.apple.com/us/album/bloodbath-single/1705148022",
+          "soundcloud": "https://soundcloud.com/changoos/bloodbath"
+        }
+      },
 
+      
+
+      {
+        "title": "Demons",
+        "cover": "https://i1.sndcdn.com/artworks-5VVgIgbDgAJmJGzq-tVsfMw-t1080x1080.jpg",
+        "type": "single",
+        "notes": "(prod. by skidee)",
+        "artist": "changoos",
+        "links": {
+          "spotify": "https://open.spotify.com/album/38eOdgr7mE37NmmSzSwhji?si=hWmOWs8xR5y1xfWxHivwNQ",
+          "appleMusic":"https://music.apple.com/us/album/demons-feat-skidee-single/1704009696",
+          "genius":"https://genius.com/Changoos-demons-feat-skidee-lyrics",
+          "youtubevideo":"https://www.youtube.com/watch?v=Hl5MI2Wp3mk",
+          "soundcloud": "https://soundcloud.com/changoos/demons-feat-skidee"
+        }
+      },
+
+      
+      {
+        "title": "Damn",
+        "cover": "https://i1.sndcdn.com/artworks-Kuz1IlNSkylp9nLS-3jm9bg-t1080x1080.jpg",
+        "type": "feature",
+        "notes": "(prod. by chrxne)",
+        "artist": "temp",
+        "artistLink":"https://soundcloud.com/jayven-correia-477160248",
+        "links": {
+          "soundcloud": "https://soundcloud.com/jayven-correia-477160248/damn-ft-changoos",
+          "genius":"https://genius.com/Temp-damn-ft-changoos-lyrics"
+        }
+      },
+
+
+      {
+        "title": "Try Me",
+        "cover": "https://i1.sndcdn.com/artworks-x7JPiYCFNI7aX343-r4SZGg-t1080x1080.jpg",
+        "type": "single",
+        "notes": "(prod. by skidee) chop chop chop chop chop",
+        "artist": "changoos",
+        "links": {
+          "spotify": "https://open.spotify.com/album/67StN738sND99bbNRP9Mmd?si=TSToh4jLSumBV6-AtMIBBQ",
+          "appleMusic": "hhttps://music.apple.com/us/album/try-me-single/1699901248",
+          "youtube": "https://www.youtube.com/watch?v=cU0x1Gqx8mM",
+          "soundcloud": "https://soundcloud.com/changoos/try-me"
+        }
+      },
+        
+    {
+      "title": "Demex",
+      "cover": "https://i1.sndcdn.com/artworks-qKJsBhbQxTOOgq6u-YNzBag-t1080x1080.jpg",
+      "type": "single",
+      "notes": "(prod. by skidee) dont mind the tshirt lmfaofooo",
+      "artist": "changoos",
+      "links": {
+        "spotify": "https://open.spotify.com/album/4auAlC3df11MRpyvJjRE7k?si=S_be9be6T0S-hoyi3QQxnA",
+        "appleMusic": "https://music.apple.com/us/album/demex-feat-skidee-single/1670124496",
+        "youtube": "https://www.youtube.com/watch?v=wH7iZoXFxHc",
+        "genius": "https://genius.com/Changoos-Demex-lyrics",
+        "soundcloud": "https://soundcloud.com/changoos/demex"
+      }
+    },
+   
     
     {
       "title": "Cant Wait",
@@ -253,6 +453,8 @@
         "soundcloud": "https://soundcloud.com/changoos/sets/paper-mags"
       }
     },
+
+    
     
     {
       "title": "No Drugz",
