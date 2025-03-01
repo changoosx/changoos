@@ -126,7 +126,7 @@ body {
 
 
 .grid-item {
-    width: 100%;
+    width: 100vw;
     position: relative;
     overflow: hidden;
 }
