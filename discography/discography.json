@@ -18,7 +18,7 @@
         "type": "feature",
         "notes": "hell yea.",
         "artist": "praggy",
-        "artistlink": "https://soundcloud.com/1praggy",
+        "artistLink": "https://soundcloud.com/1praggy",
         "links": {
           "appleMusic": "https://example.com/chop-apple",
           "youtube": "https://example.com/chop-youtube",
@@ -48,7 +48,7 @@
         "type": "feature",
         "notes": "with Jayeed",
         "artist": "ihyRico",
-        "artistlink": "https://soundcloud.com/rico_slaygang",
+        "artistLink":"https://soundcloud.com/babyric01",
         "links": {
           "soundcloud": "https://soundcloud.com/rico_slaygang/cravin-4-u-w-jay33d-changoos-bonus"
         }
@@ -58,16 +58,16 @@
         
     {
       "title": "Slow Down",
-      "cover": "---------------------------------------------",
+      "cover": "https://i1.sndcdn.com/artworks-ieiwcv7P3cuuJgd0-Kzj5mA-t500x500.jpg",
       "type": "single",
       "notes": "prod. skidee",
       "artist": "changoos",
       "links": {
-        "spotify": "---------------------------",
-        "appleMusic": "---------------------------",
-        "youtube": "-----------------------------",
+        "spotify": "https://open.spotify.com/album/2UwFdkVV3CEVoTpIIv2NVo",
+        "appleMusic": "https://music.apple.com/us/album/slow-down-single/1762625409",
+        "youtube": "https://youtu.be/eeiSPz_tCb4",
         "genius": "------------------------------",
-        "soundcloud": "---------------"
+        "soundcloud": "https://soundcloud.com/changoos/slow-down"
       }
     },
 
@@ -75,14 +75,12 @@
         "title": "Purple Jeans",
         "cover": "https://i1.sndcdn.com/artworks-DqU0rUdnYQuzQeLx-n62FkA-t500x500.jpg",
         "type": "single",
-        "notes": "TCOOK KRAK BTICH",
+        "notes": "prod. cashheart",
         "artist": "changoos",
         "links": {
-          "spotify": "https://example.com/chop-spotify",
-          "appleMusic": "https://example.com/chop-apple",
-          "youtubevideo": "https://example.com/chop-youtube",
-          "genius": "https://example.com/chop-genius",
-          "soundcloud": "https://example.com/chop-soundcloud"
+          "youtubevideo": "https://www.youtube.com/watch?v=bToMRJgH47Q",
+          "genius": "https://genius.com/Changoos-purple-jeans-lyrics",
+          "soundcloud": "https://soundcloud.com/changoos/purple-jeans"
         }
       },
 
@@ -90,7 +88,7 @@
     {
         "title": "ataaraxy mrdr",
         "cover": "https://i1.sndcdn.com/artworks-Cug3yu3fTCzryxjQ-dorb8Q-t500x500.jpg",
-        "type": "collab EP",
+        "type": "collab",
         "notes": "one of my best works with dash",
         "artist": "dash fireballs",
         "artistlink": "https://guns.lol/dash_fireballs",
@@ -102,9 +100,6 @@
         }
       },
       
-  
-    
-
     {
       "title": "Kendo",
       "cover": "assets/covers/kendo.jpg",
@@ -123,24 +118,23 @@
     
     {
       "title": "Hand full of pennies",
-      "cover": "------------------------------------------------",
+      "cover": "https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F36676066deab7136fbb5ec2494089512.500x500x1.jpg",
       "type": "single",
       "notes": "prod. cashheart",
       "artist": "changoos",
       "links": {
-        "youtubevideo": "https://example.com/chop-youtube",
+        "youtubevideo": "https://www.youtube.com/watch?v=DkjpWFWPFu4",
         "genius": "https://example.com/chop-genius",
         "soundcloud": "https://example.com/chop-soundcloud"
       }
     },
-    
     
         
     {
       "title": "Chop",
       "cover": "https://i1.sndcdn.com/artworks-UKZ9U9hU9YLROfFd-v2ku3w-t500x500.jpg",
       "type": "single",
-      "notes": "Tchop chop chop chop chop",
+      "notes": "prod. skidee chop chop chop chop chop",
       "artist": "changoos",
       "links": {
         "spotify": "https://open.spotify.com/track/4mWraOPw50BU3edLiOm6xG",
@@ -154,31 +148,31 @@
     
     {
       "title": "No Drugz",
-      "cover": "---------------------------",
+      "cover": "https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2Fce34863b550733d07dcd46861e179f46.500x500x1.jpg",
       "type": "single",
-      "notes": " prod skidee",
+      "notes": "prod. by skidee",
       "artist": "changoos",
       "links": {
         "spotify": "---------------------------",
         "appleMusic": "---------------------------",
         "youtube": "---------------------------",
-        "genius": "---------------------------",
+        "genius": "https://genius.com/Changoos-no-drugz-lyrics-",
         "soundcloud": "---------------------------"
       }
     },
    
     {
       "title": "Matte Maxima",
-      "cover": "---------------------------",
+      "cover": "https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F0437f7087b36b002a2dd4c4a9c36501d.500x500x1.jpg",
       "type": "single",
-      "notes": "genesis",
+      "notes": "prod. by skidee and okmanish",
       "artist": "changoos",
       "links": {
-        "spotify": "---------------------------",
-        "appleMusic": "---------------------------",
-        "youtube": "---------------------------",
-        "genius": "---------------------------",
-        "soundcloud": "---------------------------"
+        "spotify": "https://open.spotify.com/track/6wyppUcSjIxQEdPPlq8Pl7?",
+        "appleMusic": "https://music.apple.com/gb/album/matte-maxima-feat-skidee/1651219660?i=1651219662",
+        "youtube": "https://www.youtube.com/watch?v=JagC422f4V4&pp=ygUVbWF0dGUgbWF4aW1hIGNoYW5nb29z",
+        "genius": "https://genius.com/Changoos-matte-maxima-feat-skidee-lyrics",
+        "soundcloud": "https://soundcloud.com/changoos/changoos-matte-maxima-feat-skidee"
       }
     }
 ]

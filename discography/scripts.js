@@ -72,9 +72,9 @@ function getRandomBorder() {
 function getTypeIcon(type) {
   if (!type) return "";
   type = type.toLowerCase();
-  if (type === "feat" || type === "feature" || type === "collab" || type === "collab EP") return "assets/icons/caterpillar.png";
+  if (type === "feat" || type === "feature" || type === "collab") return "assets/icons/caterpillar.png";
   if (type === "single") return "assets/icons/cocoon.png";
-  if (type === "tape" || type === "album" || type === "EP") return "assets/icons/butterfly.png";
+  if (type === "tape" || type === "album" || type === "EP" ) return "assets/icons/butterfly.png";
   return "";
 }
 
@@ -105,10 +105,14 @@ releaseType.textContent = `(${album.type})`;
   additionalInfo.textContent = album.notes || "";
 
 if (album.artist && (album.type.toLowerCase() === "feat" || album.type.toLowerCase() === "feature")) {
-    artistAttribution.innerHTML = `by <a href="${album.artistLink || '#'}" target="_blank" style="color:rgb(229, 229, 229);">${album.artist}</a>`;
+    const artistName = album.artist;
+    const artistLink = album.artistLink || "#";
+
+    artistAttribution.innerHTML = `by <a href="${artistLink}" target="_blank" rel="noopener noreferrer" style="color:rgb(229, 229, 229);">${artistName}</a>`;
 } else {
-    artistAttribution.innerHTML = `by <span style="color:rgb(227, 227, 227);">changoos</span>`;
+    artistAttribution.innerHTML = `by <span style="color:rgb(227, 227, 227);">Changoos</span>`;
 }
+
 
 
   streamingIcons.innerHTML = ""; 
@@ -142,4 +146,3 @@ function setupOverlayExit() {
     }
   });
 }
-

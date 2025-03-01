@@ -9,9 +9,10 @@
 
 body {
     margin: 0;
-    background: #000;
+    background-color: rgb(15, 14, 14);;
     color: #fff;
     font-family: Arial, sans-serif;
+    margin-bottom: 40px;
 }
 
 #topBar {
@@ -19,16 +20,17 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     margin-top: 15px;
 }
 
 #backButton img {
     height: 40px;
+    margin-left: 20px;
 }
 
 #discographyTitle {
-    height: 78px;
+    height: 80px;
 }
 
 #infoContainer {
@@ -67,14 +69,15 @@ body {
     position: relative;
 }
 
-.infoItem img {
-    height: 40px;
-    width: 50px;
+.infoItem img { 
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
 }
 
 .infoItem span {
     font-family: "changoos", sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     text-transform: lowercase;
 }
 
@@ -97,6 +100,7 @@ body {
     align-items: center;
     width: 90%;
     margin: auto;
+    
 }
 
 
@@ -116,9 +120,9 @@ body {
 
 .albumCard {
     position: relative;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
+    width: 89%;
+    height: 90%;
+    overflow: visible;
     cursor: pointer;
     object-fit: contain;
     aspect-ratio: 1 / 1;
@@ -137,26 +141,27 @@ body {
 
 .albumCard .borderImg {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;   
+    top:-4%;
+    left: -4%;
+    width: 108%;
+    height: 108%;   
     object-fit: contain;
     pointer-events: none;
     z-index: 2;
 }
 
 .albumCard:hover .coverImg {
-    filter: brightness(0.8);
+    filter: brightness(0.6);
 }
 
-.typeIcon {
-    position: absolute;
-    bottom: 5px;
-    left: 5px;
+.typeIcon {    position: absolute;
     width: 30px;
     height: 30px;
     display: none;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
 }
 
 .albumCard:hover .typeIcon {
@@ -170,7 +175,10 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.95);
+    /* backdrop-filter: blur(px); */
+    transition: opacity 0.3s ease-in-out;
+    will-change: backdrop-filter;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,6 +193,8 @@ body {
 }
 
 #overlayContent {
+    
+    margin-top: 50px;
     display: flex;
     gap: 20px;
     max-width: 100%;
@@ -197,8 +207,10 @@ body {
 }
 
 #overlayLeft {
-    flex: 0 0 400px;
+    flex: 0 0 420px;
     text-align: center;
+    font-family: "changoos";
+    font-size: 1.8lvw;
 }
 
 #overlayLeft img {
@@ -208,6 +220,7 @@ body {
 }
 
 #overlayRight {
+    margin-left: 10px;
     flex: 1;
     overflow: visible;
 }
@@ -215,7 +228,9 @@ body {
 #titleRow {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 4px;
+    flex-wrap: nowrap;
+    align-items: baseline; 
 }
 
 #songTitle {
@@ -223,18 +238,23 @@ body {
     margin-right: 8px;
     font-family: "changoos", sans-serif;
     font-size: 5rem;
-    margin-top: 0;
+    max-width: fit-content;
+    margin-right: 0;
 }
 
 #releaseType {
+    flex-shrink: 0;
     color: #aaaaaaf8;
     font-family: "changoos", sans-serif;
     font-size: 2rem;
+    white-space: nowrap;
+    margin-left: 5px;
 }
 
 #additionalInfo {
-    font-family: "Nunito", serif;
+    font-family: "changoos", serif;
     font-weight: 431;
+    font-size: xx-large;
     margin-top: 10px;
 }
 
