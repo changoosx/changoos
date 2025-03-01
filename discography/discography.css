@@ -9,10 +9,12 @@
 
 body {
     margin: 0;
-    background-color: rgb(15, 14, 14);;
+    /* background-color: rgb(15, 14, 14); */
+    background: url(assets/covers/background.jpg)  ;
     color: #fff;
     font-family: Arial, sans-serif;
     margin-bottom: 40px;
+
 }
 
 #topBar {
