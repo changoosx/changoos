@@ -1,55 +1,53 @@
-
 body {
     background-color: rgb(19, 17, 17);
     color: white;
-    font-size: x-large;
+    font-size: 1.25vw;
     margin: 0;
     padding: 0;
-    
-  font-family: "Nunito", serif;
-  font-optical-sizing: auto;
-  font-weight: 431;
-  font-style: normal;
-  }
-      
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 431;
+    font-style: normal;
+}
 
-      ::-webkit-scrollbar {
-        width: 18px;
-    }
-    
-    ::-webkit-scrollbar-track {
-        background: rgb(17, 17, 17);
-    } 
-    
-    ::-webkit-scrollbar-thumb {
-        width: 17px;
-        background: url('images/scrollbar-thumb.png') no-repeat center center;
-        background-size: cover;
-    }
-    
-    ::-webkit-scrollbar-button {
-        display: none;
-    }
-    
+::-webkit-scrollbar {
+    width: 0.94vw;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(17, 17, 17);
+} 
+
+::-webkit-scrollbar-thumb {
+    width: 0.89vw; /* 17px */
+    background: url('images/scrollbar-thumb.png') no-repeat center center;
+    background-size: cover;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
 .back-button {
     position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 1000;}
+    top: 1.04vw; 
+    left: 1.04vw; 
+    z-index: 1000;
+}
 
 .back-button img {
-    width: 40px;
+    width: 2.08vw;
     height: auto;
     cursor: pointer; 
 }
 
 .header {
     text-align: center;
-    margin: 20px 0;
+    margin: 1vw 0; 
 }
 
 .header img {
-    width: 500px; 
+    width: 26vw; 
 }
 
 .section {
@@ -57,8 +55,8 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 50px 0;
-    padding: 20px;
+    margin: 2.6vw 0;
+    padding: 1.04vw;
 }
 
 .text-box {
@@ -66,7 +64,7 @@ body {
 }
 
 .text-box img {
-    width: 80%; 
+    width: 80%;
 }
 
 .image-box {
@@ -75,15 +73,15 @@ body {
 
 .image-box img {
     width: 100%;
-    max-width: 800px;
+    max-width: 41.67vw;
 }
 
 .yo {
-    width: 200px;
+    width: 10.42vw;
 }
 
 .whosgoos {
-    width: 480px;
+    width: 25vw;
 }
 
 a {
