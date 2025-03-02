@@ -10,25 +10,20 @@ body, html {
     overflow: hidden;
 }
 
-
-
-
 header {
     position: absolute;
-    top: 10px;
+    top: 1vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
 .logo {
-    height: 80px;
-    margin-top: 25px;
+    height: 8vh;
+    margin-top: 2vh;
 }
-
-
+ 
 .container {
     position: relative;
     width: 100vw;
@@ -39,9 +34,8 @@ header {
     position: absolute;
     transition: 0.3s;
     z-index: 3;
-    width: 410px;
+    width: 20vw;
     transition: opacity 0.3s ease-in-out;
-    
 }
 
 .button:hover {
@@ -57,7 +51,6 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 40vw;
-
     height: auto;
     z-index: 2;
 }
@@ -70,12 +63,7 @@ header {
 
 .center-image:hover img {
     content: url('images/babychangoos_hover.png');
-    
-    img {
-        width: 100%; 
-        height: 100%;
-        object-fit: cover;
-      }
+    object-fit: cover;
 }
 
 #discography:hover { content: url('images/discography_hover.png'); }
@@ -86,9 +74,9 @@ header {
 /* #people:hover { content: url('images/people_hover.png'); } */
 
 /* button ki positioning ke liye */
-#discography { top: 27%; left: 7%; }
-#about { top: 70%; left: 7%; }
-#goals { top: 78%; left: 7%; }
-#other { top: 22%; right: 10%; }
-#socials { top: 72%; right: 10%; }
-#people { top: 78%; right: 10%; }
+#discography { top: 27vh; left: 7vw; }
+#about { top: 70vh; left: 7vw; }
+#goals { top: 78vh; left: 7vw; }
+#other { top: 22vh; right: 10vw; }
+#socials { top: 72vh; right: 10vw; }
+#people { top: 78vh; right: 10vw; }
