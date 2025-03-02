@@ -16,18 +16,18 @@ body {
 
 .back-button {
     position: fixed;
-    top: 20px;
-    left: 20px;
+    top: 1.6vw;
+    left: 1.6vw;
     z-index: 1000;}
 
 .back-button img {
-    width: 40px;
+    width: 2.6vw;
     height: auto;
     cursor: pointer; 
 }
 .social-icons {
     display: flex;
-    gap: 23px;
+    gap: 1.198vw;
 }
 
 .social-icons img {
