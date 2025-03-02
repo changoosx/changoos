@@ -31,7 +31,7 @@ body {
 }
 
 .social-icons img {
-    width: 130px;
+    width: 5.8vw;
     height: auto;
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
     cursor: pointer;
