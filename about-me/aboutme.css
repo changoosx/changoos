@@ -10,8 +10,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 431;
   font-style: normal;
-  
-      }
+  }
       
 
       ::-webkit-scrollbar {
@@ -85,4 +84,8 @@ body {
 
 .whosgoos {
     width: 480px;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.863);
 }
