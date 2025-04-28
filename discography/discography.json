@@ -2,6 +2,61 @@
 
   
   {
+    "title": "Can't Hold Back",
+    "cover": "https://i1.sndcdn.com/artworks-5eO67FQfACEtYz9s-3uQ9NA-t500x500.png",
+    "type": "single",
+    "notes": "(prod. by skidee)-",
+    "artist": "changoos",
+    "links": {
+      "spotify": "https://open.spotify.com/track/7d2HoasoGhmaUHK5dvWXcJ",
+      "appleMusic": "https://music.apple.com/in/album/cant-hold-back/1810812534?i=1810812535&at=1001lbRT&ct=3375904&uo=4",
+      "youtube": "https://www.youtube.com/watch?v=KP6qcO-pcpM",
+      "genius": "https://genius.com/Changoos-Cant-Hold-Back-lyrics",
+      "soundcloud": "https://soundcloud.com/changoos/cant-hold-back"
+    }
+  },
+
+  {
+    "title": "Muhammad Ali",
+    "cover": "https://i1.sndcdn.com/artworks-uCR3LZUJFyjcNsJp-0bt8FQ-t500x500.png",
+    "type": "single",
+    "notes": "(prod. by skidee) featuring Aszu",
+    "artist": "changoos",
+    "links": {
+      "spotify": "https://open.spotify.com/track/5xhEsdZUVvAr4ito95PqPk",
+      "appleMusic": "https://music.apple.com/in/album/muhammad-ali-feat-aszu/1810559723?i=1810559724",
+      "youtube": "https://youtu.be/TD5pFTf-hLY",
+      "genius": "https://genius.com/Changoos-Muhammad-Ali-lyrics",
+      "soundcloud": "https://soundcloud.com/changoos/muhammad-ali"
+    }
+  },
+  
+  {
+    "title": "Stella",
+    "cover": "https://i1.sndcdn.com/artworks-PhPKxqJglnLsRiuL-xOwXGg-t500x500.png",
+    "type": "feature",
+    "notes": "(prod. by kwizz)",
+    "artist": "aszu",
+    "links": {
+      "soundcloud": "hhttps://soundcloud.com/okayaszu/stella",
+      "genius" : "https://genius.com/Aszu-stella-lyrics",
+      "youtube": "https://www.youtube.com/watch?v=q0T2r8YBGA8"
+    }
+  },
+
+  {
+    "title": "Perfect",
+    "cover": "https://i1.sndcdn.com/artworks-OaNbg1X0sQOQOied-9DWVOQ-t500x500.jpg",
+    "type": "single",
+    "notes": "(prod. by skidee)",
+    "artist": "changoos",
+    "links": {
+      "soundcloud": "https://soundcloud.com/changoos/perfect"
+    }
+  },
+
+  
+  {
     "title": "Psylocybin ParleGs",
     "cover": "https://i1.sndcdn.com/artworks-uKf7hs6fglsNNJL3-kKap7A-t500x500.jpg",
     "type": "single",
@@ -17,7 +72,7 @@
     "title": "Cravin 4 u",
     "cover": "https://i1.sndcdn.com/artworks-aGaytBLs4ydEr2je-9ZBZsA-t500x500.jpg",
     "type": "feature",
-    "notes": "(prod. by rico forgot the producers name, dumbass)",
+    "notes": "(prod. by rico forgot the producers name....)",
     "artist": "ihyRico",
     "artistLink":"https://soundcloud.com/rico_slaygang",
     "links": {
