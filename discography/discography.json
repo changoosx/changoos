@@ -1,4 +1,35 @@
 [
+
+    {
+    "title": "Little Harsh",
+    "cover": "https://i1.sndcdn.com/artworks-szz1qFcbdlhWW3Fp-3j2j1Q-t500x500.png",
+    "type": "single",
+    "notes": "(prod. by Liquid Psyche)",
+    "artist": "changoos",
+    "links": {
+      "spotify": "https://open.spotify.com/album/6lbz8Rjb3jWhW2YNCgQqN8?si=JZ4SZPhrRgqThon15oCKFQ",
+      "appleMusic": "https://music.apple.com/in/album/little-harsh-single/1841324167",
+      "youtubevideo": "https://www.youtube.com/watch?v=5Ym2bHC3J0M",
+      "genius": "https://genius.com/Changoos-Little-Harsh-lyrics",
+      "soundcloud": "https://soundcloud.com/changoos/little-harsh"
+    }
+  },
+  
+  {
+    "title": "Chimes",
+    "cover": "https://i1.sndcdn.com/artworks-5eO67FQfACEtYz9s-3uQ9NA-t500x500.png",
+    "type": "single",
+    "notes": "(prod. by skidee)",
+    "artist": "changoos",
+    "links": {
+      "spotify": "https://open.spotify.com/album/0YhBq4ctpRsDYZZcB77XNf?si=-VSF_34DTwiwtPnLTS9C6w",
+      "appleMusic": "https://music.apple.com/in/album/chimes-single/1818517763",
+      "youtube": "https://youtu.be/oxaD81kEEqM?list=OLAK5uy_kPVPEMzUgzXBvNZ4Hsm-JlIkI2VYq-aRk",
+      "genius": "https://genius.com/Changoos-chimes-lyrics",
+      "soundcloud": "https://soundcloud.com/changoos/chimes"
+    }
+  },
+  
   {
     "title": "Neurology",
     "cover": "https://images.genius.com/4b89646612456d02d7ca6c081e40666c.500x500x1.png",
@@ -23,6 +54,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/7d2HoasoGhmaUHK5dvWXcJ",
       "appleMusic": "https://music.apple.com/in/album/cant-hold-back/1810812534?i=1810812535&at=1001lbRT&ct=3375904&uo=4",
+      "youtubevideo": "https://www.youtube.com/watch?v=Ti1J2fISWMA",
       "youtube": "https://www.youtube.com/watch?v=KP6qcO-pcpM",
       "genius": "https://genius.com/Changoos-Cant-Hold-Back-lyrics",
       "soundcloud": "https://soundcloud.com/changoos/cant-hold-back"
@@ -578,4 +610,5 @@
       }
     }
 ]
+
 
