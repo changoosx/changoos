@@ -14,10 +14,24 @@
       "soundcloud": "https://soundcloud.com/changoos/little-harsh"
     }
   },
-  
+
+      {
+    "title": "No Key",
+    "cover": "https://i1.sndcdn.com/artworks-Bxyf5Cxc8zTc8oip-eQTaHQ-t500x500.png",
+    "type": "single",
+    "notes": "(prod. by F1LTHY)",
+    "artist": "changoos",
+    "links": {
+      "soundcloud": "https://soundcloud.com/changoos/no-key",
+        "genius": "https://genius.com/Changoos-no-key-lyrics",
+      "youtube":"https://www.youtube.com/watch?v=hGdQ5wbQwVA"
+    }
+  },
+ 
+    
   {
     "title": "Chimes",
-    "cover": "https://i1.sndcdn.com/artworks-5eO67FQfACEtYz9s-3uQ9NA-t500x500.png",
+    "cover": "https://i1.sndcdn.com/artworks-LlOV9Zm2MxhK5F6O-0X1lzw-t500x500.png",
     "type": "single",
     "notes": "(prod. by skidee)",
     "artist": "changoos",
@@ -610,5 +624,6 @@
       }
     }
 ]
+
 
 
