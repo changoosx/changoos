@@ -1,5 +1,33 @@
 [
 
+        {
+    "title": "Shakshuka",
+    "cover": "https://images.genius.com/b68b2b02ebd12b5dbac48cfca81e1350.862x861x1.jpg",
+    "type": "single",
+    "notes": "(prod. by Santiboss) MUSIC VID OTWWW",
+    "artist": "changoos",
+    "links": {
+      "spotify": "https://open.spotify.com/track/7pYxrjVdOYHBSg5eXlJruq?si=6259221ee7664f39",
+      "appleMusic": "https://music.apple.com/in/album/shakshuka-single/1850309328",
+      "genius": "https://genius.com/Changoos-Shakshuka-lyrics",
+      "soundcloud": "https://soundcloud.com/changoos/shakshuka"
+    }
+  },
+    {
+    "title": "Dirty Shoes",
+    "cover": "https://images.genius.com/c7b1feffb150fe333698469a97da5e2b.1000x1000x1.jpg",
+    "type": "single",
+    "notes": "(prod. by Skidee)",
+    "artist": "changoos",
+    "links": {
+      "spotify": "https://open.spotify.com/track/7pYxrjVdOYHBSg5eXlJruq?si=6259221ee7664f39",
+      "appleMusic": "https://music.apple.com/in/album/dirty-shoes-feat-skidee-aszu-single/1848117019",
+      "youtube": "https://www.youtube.com/watch?v=2uAhsa8lzYM",
+      "genius": "https://genius.com/Changoos-dirty-shoes-lyrics",
+      "soundcloud": "https://soundcloud.com/changoos/dirty-shoes"
+    }
+  },
+    
     {
     "title": "Little Harsh",
     "cover": "https://i1.sndcdn.com/artworks-szz1qFcbdlhWW3Fp-3j2j1Q-t500x500.png",
@@ -9,7 +37,7 @@
     "links": {
       "spotify": "https://open.spotify.com/album/6lbz8Rjb3jWhW2YNCgQqN8?si=JZ4SZPhrRgqThon15oCKFQ",
       "appleMusic": "https://music.apple.com/in/album/little-harsh-single/1841324167",
-      "youtubevideo": "https://www.youtube.com/watch?v=5Ym2bHC3J0M",
+      "youtube": "https://www.youtube.com/watch?v=5Ym2bHC3J0M",
       "genius": "https://genius.com/Changoos-Little-Harsh-lyrics",
       "soundcloud": "https://soundcloud.com/changoos/little-harsh"
     }
@@ -624,6 +652,7 @@
       }
     }
 ]
+
 
 
 
