@@ -27,7 +27,19 @@
       "soundcloud": "https://soundcloud.com/changoos/dirty-shoes"
     }
   },
-    
+
+{
+    "title": "Crack's & Crevice's Freestyle",
+    "cover": "https://images.genius.com/1568b34bda3b9b8f7e37099b68e8c6f2.918x919x1.jpg",
+    "type": "single",
+    "notes": "(prod. by Based TJ & T3)",
+    "artist": "changoos",
+    "links": {
+      "genius": "https://genius.com/Changoos-cracks-and-crevices-freestyle-lyrics",
+      "soundcloud": "https://soundcloud.com/changoos/cnc-freestyle"
+    }
+  },
+        
     {
     "title": "Little Harsh",
     "cover": "https://i1.sndcdn.com/artworks-szz1qFcbdlhWW3Fp-3j2j1Q-t500x500.png",
@@ -143,7 +155,33 @@
   },
 
   
+  {
+    "title": "Psylocybin ParleGs",
+    "cover": "https://i1.sndcdn.com/artworks-uKf7hs6fglsNNJL3-kKap7A-t500x500.jpg",
+    "type": "single",
+    "notes": "(prod. by frustration), featuring jay33d",
+    "artist": "changoos",
+    "links": {
+      "soundcloud": "https://soundcloud.com/changoos/psilocybin-parlegs"
+    }
+  },
 
+  
+  {
+    "title": "Cravin 4 u",
+    "cover": "https://i1.sndcdn.com/artworks-aGaytBLs4ydEr2je-9ZBZsA-t500x500.jpg",
+    "type": "feature",
+    "notes": "(prod. by rico forgot the producers name....)",
+    "artist": "ihyRico",
+    "artistLink":"https://soundcloud.com/rico_slaygang",
+    "links": {
+      "soundcloud": "https://soundcloud.com/rico_slaygang/cravin-4-u-w-jay33d-changoos-bonus",
+      "spotify": "https://open.spotify.com/track/6cOkUVnM9c7lbfYJbYGyDf?si=c28ba64975154ea9",
+      "youtube" : "https://www.youtube.com/watch?v=Zh5ri5Cm_zg&pp=ygUTY3JhdmluIDQgdSBjaGFuZ29vcw%3D%3D",
+      "appleMusic" : "https://music.apple.com/in/album/cravin-4-u-feat-jay33d-changoos-single/1773682986"
+    }
+  },
+ 
   
   {
     "title": "hide it",
