@@ -55,6 +55,19 @@
     }
   },
 
+
+{
+    "title": "Squah, Better Chill Out",
+    "cover": "https://t2.genius.com/unsafe/710x0/https%3A%2F%2Fimages.genius.com%2F494c59c93d11e4fc1fc6904e1418abc1.1000x1000x1.jpg",
+    "type": "feature",
+    "notes": "MAYHEM MUSIC. I'm on 2 songs from the album its real good check it out",
+    "artist": "ihyrico",
+    "links": {
+      "spotify": "https://open.spotify.com/track/4CtnfGDaPpWQfZFLTbrtf2?si=48b7044533e547cb",
+      "appleMusic": "https://music.apple.com/in/song/squah-feat-changoos/1847039127",
+    }
+  },
+        
       {
     "title": "No Key",
     "cover": "https://i1.sndcdn.com/artworks-Bxyf5Cxc8zTc8oip-eQTaHQ-t500x500.png",
@@ -226,19 +239,6 @@
         "youtube": "https://www.youtube.com/watch?v=UdUqKxJ79xw&pp=ygUSbGV0IG1lIGdvIGNoYW5nb29z",
         "genius": "https://genius.com/Changoos-let-me-go-lyrics",
         "soundcloud": "https://soundcloud.com/changoos/letmego"
-      }
-    },
-
-    
-    {
-      "title": "icbm",
-      "cover": "https://i1.sndcdn.com/artworks-VRxPflI3JGdIypUU-A5yYuQ-t500x500.jpg",
-      "type": "feature",
-      "notes": "(prod. by dash fireballs, reallyindig0, prodyungrobin) another CHH banger",
-      "artist": "dash fireballs",
-      "artistLink":"https://guns.lol/dash_fireballs",
-      "links": {
-        "soundcloud": "https://soundcloud.com/katex_21/icbm-w-changoos"
       }
     },
 
@@ -637,6 +637,7 @@
       }
     }
 ]
+
 
 
 
